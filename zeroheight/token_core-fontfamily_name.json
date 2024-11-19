@@ -1,0 +1,154 @@
+{
+  "Android": {
+    "fontFamilySans1": {
+      "$type": "string",
+      "$value": "Roboto"
+    }
+  },
+  "Apple": {
+    "fontFamilySans1": {
+      "$type": "string",
+      "$value": "SF Pro"
+    }
+  },
+  "DM": {
+    "fontFamilySans1": {
+      "$type": "string",
+      "$value": "Museo Sans"
+    },
+    "fontFamilySerif1": {
+      "$type": "string",
+      "$value": "Publico Headline"
+    },
+    "fontFamilySerif2": {
+      "$type": "string",
+      "$value": "Publico Text"
+    }
+  },
+  "FL": {
+    "fontFamilySans1": {
+      "$type": "string",
+      "$value": "Acumin Pro Condensed"
+    },
+    "fontFamilySans2": {
+      "$type": "string",
+      "$value": "Acumin Pro"
+    },
+    "fontFamilySans3": {
+      "$type": "string",
+      "$value": "Acumin Pro Wide"
+    },
+    "fontFamilySerif1": {
+      "$type": "string",
+      "$value": "Miamo Bold"
+    },
+    "fontFamilySerif2": {
+      "$type": "string",
+      "$value": "Miamo Regular"
+    },
+    "fontFamilySerif3": {
+      "$type": "string",
+      "$value": "Caecilia LT Std"
+    }
+  },
+  "HP": {
+    "fontFamilySans1": {
+      "$type": "string",
+      "$value": "Balto"
+    },
+    "fontFamilySerif1": {
+      "$type": "string",
+      "$value": "Quarto"
+    },
+    "fontFamilySerif2": {
+      "$type": "string",
+      "$value": "Tiempos Text"
+    }
+  },
+  "HU": {
+    "fontFamilySans1": {
+      "$type": "string",
+      "$value": "Haas Grotesk Text Bold"
+    },
+    "fontFamilySans2": {
+      "$type": "string",
+      "$value": "Haas Grotesk Text Roman"
+    },
+    "fontFamilySans3": {
+      "$type": "string",
+      "$value": "Haas Grotesk Display Roman"
+    },
+    "fontFamilySans4": {
+      "$type": "string",
+      "$value": "Swiss 721"
+    },
+    "fontFamilySerif1": {
+      "$type": "string",
+      "$value": "Brioni Std"
+    }
+  },
+  "LI": {
+    "fontFamilySans1": {
+      "$type": "string",
+      "$value": "Nexa"
+    },
+    "fontFamilySerif1": {
+      "$type": "string",
+      "$value": "Essonnes"
+    },
+    "fontFamilySerif2": {
+      "$type": "string",
+      "$value": "Enigma Text App"
+    }
+  },
+  "MA": {
+    "fontFamilySans1": {
+      "$type": "string",
+      "$value": "CocoGothicProAlt"
+    },
+    "fontFamilySans2": {
+      "$type": "string",
+      "$value": "CocoGothicPro"
+    },
+    "fontFamilySans3": {
+      "$type": "string",
+      "$value": "Microbrew One"
+    },
+    "fontFamilySerif1": {
+      "$type": "string",
+      "$value": "Eckhart"
+    },
+    "fontFamilySerif2": {
+      "$type": "string",
+      "$value": "Leitura News"
+    }
+  },
+  "TR": {
+    "fontFamilySans1": {
+      "$type": "string",
+      "$value": "Graphik"
+    },
+    "fontFamilySerif1": {
+      "$type": "string",
+      "$value": "Publico Headline"
+    },
+    "fontFamilySerif2": {
+      "$type": "string",
+      "$value": "Brioni Std"
+    }
+  },
+  "VK": {
+    "fontFamilySans1": {
+      "$type": "string",
+      "$value": "BentonSans"
+    },
+    "fontFamilySerif1": {
+      "$type": "string",
+      "$value": "CapitoliumHead"
+    },
+    "fontFamilySerif2": {
+      "$type": "string",
+      "$value": "CapitoliumNews"
+    }
+  }
+}
