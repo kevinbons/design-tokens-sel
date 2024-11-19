@@ -1,0 +1,1000 @@
+{
+  "body": {
+    "primary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySerif2}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-250}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-200}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-400}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-090}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-450}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-085}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-475}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-075}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-400}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    },
+    "quaternary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySans1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-250}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-200}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-400}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-090}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-450}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-085}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-080}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-905}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    },
+    "secondary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySerif2}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-250}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-200}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-400}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-090}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-450}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-085}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-475}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-075}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-700}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    },
+    "tertiary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySans1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-250}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-200}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-400}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-090}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-450}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-085}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-080}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-305}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    }
+  },
+  "brand": {
+    "$type": "string",
+    "$value": "DM"
+  },
+  "display": {
+    "primary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySerif1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-900}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-800}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1000}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1050}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1100}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-450}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1200}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-400}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-910}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    },
+    "quaternary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySans1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-900}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-800}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1000}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1050}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1100}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-450}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1200}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-400}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-305}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    },
+    "secondary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySerif1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-900}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-800}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1000}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1050}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1100}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-450}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1200}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-400}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-300}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    },
+    "tertiary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySans1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-900}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-800}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1000}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1050}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1100}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-450}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-1200}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-400}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-905}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    }
+  },
+  "headline": {
+    "primary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySerif1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-450}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-400}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-775}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-100}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-910}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    },
+    "quaternary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySans1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-450}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-400}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-800}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-100}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-905}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": true
+      }
+    },
+    "quinary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySerif1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-450}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-400}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-800}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-100}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-400}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": true
+      }
+    },
+    "secondary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySerif1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-450}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-425}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-350}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-525}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-625}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-750}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-825}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-100}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-300}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    },
+    "tertiary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySans1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-450}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-400}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-800}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-100}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-905}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    }
+  },
+  "label": {
+    "primary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySans1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-090}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-085}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-080}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-075}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-070}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-060}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-050}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-905}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    },
+    "quaternary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySans1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-090}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-085}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-080}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-075}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-070}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-060}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-050}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-305}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": true
+      }
+    },
+    "secondary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySans1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-090}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-085}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-080}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-075}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-070}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-060}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-050}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-305}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    },
+    "tertiary": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{DM.fontFamilySans1}"
+      },
+      "fontScale-l": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-090}"
+      },
+      "fontScale-m": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-085}"
+      },
+      "fontScale-s": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-080}"
+      },
+      "fontScale-xl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-075}"
+      },
+      "fontScale-xxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-070}"
+      },
+      "fontScale-xxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-060}"
+      },
+      "fontScale-xxxxl": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxxxs": {
+        "$type": "number",
+        "$value": "{fsize.fontsize-050}"
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "{fweight.weight-705}"
+      },
+      "uppercase": {
+        "$type": "boolean",
+        "$value": false
+      }
+    }
+  }
+}
