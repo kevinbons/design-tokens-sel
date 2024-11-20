@@ -639,7 +639,7 @@
       },
       "fontWeight": {
         "$type": "string",
-        "$value": "{fweight.weight-700}"
+        "$value": "{fweight.weight-900}"
       },
       "uppercase": {
         "$type": "boolean",
