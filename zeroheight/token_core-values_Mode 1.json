@@ -720,9 +720,17 @@
       "$type": "number",
       "$value": 2
     },
+    "spacing-030": {
+      "$type": "number",
+      "$value": 3
+    },
     "spacing-050": {
       "$type": "number",
       "$value": 4
+    },
+    "spacing-060": {
+      "$type": "number",
+      "$value": 5
     },
     "spacing-075": {
       "$type": "number",
