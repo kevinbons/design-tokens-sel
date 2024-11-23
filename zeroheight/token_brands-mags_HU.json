@@ -225,7 +225,7 @@
       },
       "fontWeight": {
         "$type": "string",
-        "$value": "{fweight.weight-700}"
+        "$value": "{fweight.weight-400}"
       },
       "uppercase": {
         "$type": "boolean",
@@ -815,7 +815,7 @@
       },
       "fontWeight": {
         "$type": "string",
-        "$value": "{fweight.weight-775}"
+        "$value": "{fweight.weight-335}"
       },
       "uppercase": {
         "$type": "boolean",
@@ -931,7 +931,7 @@
       },
       "fontWeight": {
         "$type": "string",
-        "$value": "{fweight.weight-335}"
+        "$value": "{fweight.weight-775}"
       },
       "uppercase": {
         "$type": "boolean",
