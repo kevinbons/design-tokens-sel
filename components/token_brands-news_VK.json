@@ -1,0 +1,368 @@
+{
+  "label": {
+    "iconColor": {
+      "$type": "color",
+      "$value": "{System.iconDefault}"
+    },
+    "live": {
+      "backgroundColor": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "borderColor": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "fontFamily": {
+        "$type": "string",
+        "$value": "BentonSans"
+      },
+      "fontSize": {
+        "$type": "number",
+        "$value": 11
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "bold"
+      },
+      "gapH": {
+        "$type": "number",
+        "$value": 4
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{VK.brand.live}"
+      },
+      "iconShown": {
+        "$type": "boolean",
+        "$value": true
+      },
+      "spacingH": {
+        "$type": "number",
+        "$value": "{spacing.spacing-none}"
+      },
+      "spacingV": {
+        "$type": "number",
+        "$value": "{spacing.spacing-none}"
+      },
+      "textColor": {
+        "$type": "color",
+        "$value": "{VK.brand.live}"
+      },
+      "textShown": {
+        "$type": "boolean",
+        "$value": true
+      },
+      "textString": {
+        "$type": "string",
+        "$value": "Live"
+      },
+      "upperCase": {
+        "$type": "boolean",
+        "$value": true
+      }
+    },
+    "main": {
+      "backgroundColor": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "borderColor": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "fontFamily": {
+        "$type": "string",
+        "$value": "BentonSans"
+      },
+      "fontSize": {
+        "$type": "number",
+        "$value": 11
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "bold"
+      },
+      "gapH": {
+        "$type": "number",
+        "$value": "{spacing.spacing-none}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "iconShown": {
+        "$type": "boolean",
+        "$value": false
+      },
+      "spacingH": {
+        "$type": "number",
+        "$value": "{spacing.spacing-none}"
+      },
+      "spacingV": {
+        "$type": "number",
+        "$value": "{spacing.spacing-none}"
+      },
+      "textColor": {
+        "$type": "color",
+        "$value": "{System.textDefault}"
+      },
+      "textShown": {
+        "$type": "boolean",
+        "$value": true
+      },
+      "textString": {
+        "$type": "string",
+        "$value": "Main"
+      },
+      "upperCase": {
+        "$type": "boolean",
+        "$value": true
+      }
+    },
+    "premium": {
+      "backgroundColor": {
+        "$type": "color",
+        "$value": "{VK.brand.premium}"
+      },
+      "backgroundColor 2": {
+        "$type": "color",
+        "$value": "{VK.brand.premium}"
+      },
+      "backgroundColor 3": {
+        "$type": "color",
+        "$value": "{VK.brand.premium}"
+      },
+      "borderColor": {
+        "$type": "color",
+        "$value": "{VK.solid.solid-2}"
+      },
+      "borderColor 2": {
+        "$type": "color",
+        "$value": "{VK.solid.solid-2}"
+      },
+      "borderColor 3": {
+        "$type": "color",
+        "$value": "{VK.solid.solid-2}"
+      },
+      "fontFamily": {
+        "$type": "string",
+        "$value": "BentonSans"
+      },
+      "fontSize": {
+        "$type": "number",
+        "$value": 11
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "bold"
+      },
+      "gapH": {
+        "$type": "number",
+        "$value": 4
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "{System.iconDefault}"
+      },
+      "iconColor 2": {
+        "$type": "color",
+        "$value": "{System.iconDefault}"
+      },
+      "iconShown": {
+        "$type": "boolean",
+        "$value": true
+      },
+      "spacingH": {
+        "$type": "number",
+        "$value": 6
+      },
+      "spacingV": {
+        "$type": "number",
+        "$value": 5
+      },
+      "textColor": {
+        "$type": "color",
+        "$value": "{VK.brand.premiumText}"
+      },
+      "textColor 2": {
+        "$type": "color",
+        "$value": "{VK.brand.premiumText}"
+      },
+      "textColor 3": {
+        "$type": "color",
+        "$value": "{VK.brand.premiumText}"
+      },
+      "textShown": {
+        "$type": "boolean",
+        "$value": false
+      },
+      "textString": {
+        "$type": "string",
+        "$value": "VK Plus"
+      },
+      "upperCase": {
+        "$type": "boolean",
+        "$value": true
+      }
+    },
+    "sub": {
+      "backgroundColor": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "borderColor": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "fontFamily": {
+        "$type": "string",
+        "$value": "BentonSans"
+      },
+      "fontSize": {
+        "$type": "number",
+        "$value": 11
+      },
+      "fontWeight": {
+        "$type": "string",
+        "$value": "book"
+      },
+      "gapH": {
+        "$type": "number",
+        "$value": "{spacing.spacing-none}"
+      },
+      "iconColor": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "iconShown": {
+        "$type": "boolean",
+        "$value": false
+      },
+      "spacingH": {
+        "$type": "number",
+        "$value": "{spacing.spacing-none}"
+      },
+      "spacingV": {
+        "$type": "number",
+        "$value": "{spacing.spacing-none}"
+      },
+      "textColor": {
+        "$type": "color",
+        "$value": "{System.textDefault}"
+      },
+      "textShown": {
+        "$type": "boolean",
+        "$value": true
+      },
+      "textString": {
+        "$type": "string",
+        "$value": "Sub"
+      },
+      "upperCase": {
+        "$type": "boolean",
+        "$value": true
+      }
+    },
+    "textColor": {
+      "$type": "color",
+      "$value": "{System.textDefault}"
+    }
+  },
+  "label-container": {
+    "boxed": {
+      "backgroundColor": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "borderColor": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "gapH": {
+        "$type": "number",
+        "$value": 6
+      },
+      "gapV": {
+        "$type": "number",
+        "$value": 4
+      },
+      "main": {
+        "textColor": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      },
+      "premium": {
+        "backgroundColor": {
+          "$type": "color",
+          "$value": "{VK.brand.premium}"
+        },
+        "borderColor": {
+          "$type": "color",
+          "$value": "{VK.solid.solid-2}"
+        },
+        "iconColor": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "textColor": {
+          "$type": "color",
+          "$value": "{VK.brand.premiumText}"
+        }
+      },
+      "spacingH": {
+        "$type": "number",
+        "$value": 6
+      },
+      "spacingV": {
+        "$type": "number",
+        "$value": 6
+      },
+      "sub": {
+        "textColor": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      },
+      "uam": {
+        "iconColor": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      }
+    },
+    "default": {
+      "backgroundColor": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "borderColor": {
+        "$type": "color",
+        "$value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "gapH": {
+        "$type": "number",
+        "$value": 6
+      },
+      "gapV": {
+        "$type": "number",
+        "$value": 6
+      },
+      "spacingH": {
+        "$type": "number",
+        "$value": "{spacing.spacing-none}"
+      },
+      "spacingV": {
+        "$type": "number",
+        "$value": "{spacing.spacing-none}"
+      },
+      "uam": {
+        "logoColor": {
+          "$type": "color",
+          "$value": "{System.alwaysBlack}"
+        }
+      }
+    }
+  }
+}

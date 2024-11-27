@@ -1,0 +1,1404 @@
+{
+  "AV": {
+    "disclaimer": {
+      "DM": {
+        "Background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#e2e2e2"
+        }
+      },
+      "HP": {
+        "Background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#e2e2e2"
+        }
+      },
+      "TR": {
+        "Background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#e2e2e2"
+        }
+      },
+      "WL": {
+        "Background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#e2e2e2"
+        }
+      }
+    },
+    "linkStyles": {
+      "DM": {
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "HP": {
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "TR": {
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "WL": {
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "photoCredit": {
+      "DM": {
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "HP": {
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "TR": {
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "WL": {
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    }
+  },
+  "DM": {
+    "components": {
+      "quote": {
+        "text": {
+          "$type": "color",
+          "$value": "#00425f"
+        }
+      },
+      "topbar": {
+        "logo-de": {
+          "$type": "color",
+          "$value": "#ed1b2f"
+        },
+        "logo-morgen": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "video": {
+        "Play-button-icon": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Primary": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "$type": "color",
+          "$value": "rgba(255, 255, 255, 0.0000)"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "boxLabel": {
+          "premium": {
+            "Background": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "Border": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "Text": {
+              "$type": "color",
+              "$value": "#ffffff"
+            }
+          }
+        },
+        "textLabel": {
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textInverted}"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Icon": {
+            "$type": "color",
+            "$value": "{DM.brand.live}"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{DM.brand.live}"
+          }
+        },
+        "premium": {
+          "Background": {
+            "$type": "color",
+            "$value": "{DM.brand.premium}"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "{DM.brand.premium}"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
+        }
+      },
+      "textLabel": {
+        "Text": {
+          "$type": "color",
+          "$value": "{System.textDefault}"
+        }
+      }
+    },
+    "liveblog": {
+      "flag": {
+        "Default": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Highlight": {
+          "$type": "color",
+          "$value": "#ed1b2f"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "line": {
+        "Border": {
+          "$type": "color",
+          "$value": "#ed1b2f"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "$type": "color",
+          "$value": "#ed1b2f"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#a81321"
+        },
+        "normal": {
+          "$type": "color",
+          "$value": "{DM.solid.solid-1}"
+        },
+        "visited": {
+          "$type": "color",
+          "$value": "#f36674"
+        }
+      }
+    },
+    "template": {
+      "column": {
+        "Background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    }
+  },
+  "FL": {
+    "component": {
+      "Video": {
+        "Play-button-icon": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Primary": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "label": {
+        "premium": {
+          "background": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
+        }
+      },
+      "list-item": {
+        "bullit": {
+          "$type": "color",
+          "$value": "#1fab68"
+        }
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "$type": "color",
+          "$value": "rgba(255, 255, 255, 0.0000)"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "boxLabel": {
+          "advertorial": {
+            "Background": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "Border": {
+              "$type": "color",
+              "$value": "#ffffff"
+            },
+            "Text": {
+              "$type": "color",
+              "$value": "#000000"
+            }
+          },
+          "premium": {
+            "Background": {
+              "$type": "color",
+              "$value": "#000000"
+            },
+            "Border": {
+              "$type": "color",
+              "$value": "#000000"
+            },
+            "Text": {
+              "$type": "color",
+              "$value": "#ffffff"
+            }
+          }
+        },
+        "textLabel": {
+          "Text": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Icon": {
+            "$type": "color",
+            "$value": "{FL.brand.live}"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{FL.brand.live}"
+          }
+        },
+        "premium": {
+          "Background": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
+        }
+      },
+      "textLabel": {
+        "Text": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      }
+    },
+    "liveblog": {
+      "line": {
+        "Border": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "moments": {
+        "Default": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Highlight": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "$type": "color",
+          "$value": "#1fab68"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#147045"
+        },
+        "normal": {
+          "$type": "color",
+          "$value": "{FL.solid.solid-1}"
+        },
+        "visited": {
+          "$type": "color",
+          "$value": "#69c79a"
+        }
+      }
+    },
+    "ragingBox": {
+      "Background": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    }
+  },
+  "HP": {
+    "component": {
+      "ratingBox": {
+        "background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "video": {
+        "Play-button-icon": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "Primary": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "dropcap": {
+      "Border": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "Letter": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "$type": "color",
+          "$value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "textLabel": {
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Icon": {
+            "$type": "color",
+            "$value": "{HP.brand.live}"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{HP.brand.live}"
+          }
+        },
+        "premium": {
+          "Background": {
+            "$type": "color",
+            "$value": "{HP.brand.premium}"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "{HP.brand.premium}"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.alwaysWhite}"
+          }
+        }
+      }
+    },
+    "liveblog": {
+      "line": {
+        "Border": {
+          "$type": "color",
+          "$value": "#d72236"
+        }
+      },
+      "moments": {
+        "Background": {
+          "$type": "color",
+          "$value": "#d72236"
+        },
+        "Default": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "$type": "color",
+          "$value": "#d72236"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#ed99a3"
+        },
+        "normal": {
+          "$type": "color",
+          "$value": "{HP.solid.solid-1}"
+        },
+        "visited": {
+          "$type": "color",
+          "$value": "#ef3e51"
+        }
+      }
+    },
+    "template": {
+      "background": {
+        "Column": {
+          "$type": "color",
+          "$value": "#fcf1ef"
+        }
+      }
+    }
+  },
+  "HU": {
+    "component": {
+      "ratingBox": {
+        "border": {
+          "$type": "color",
+          "$value": "#1d1d1d"
+        }
+      },
+      "video": {
+        "Play-button-icon": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Primary": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "group": {
+      "Group-background": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0.0000)"
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "$type": "color",
+          "$value": "rgba(255, 255, 255, 0.0000)"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "boxLabel": {
+          "premium": {
+            "Background": {
+              "$type": "color",
+              "$value": "#fbf503"
+            },
+            "Border": {
+              "$type": "color",
+              "$value": "#fbf503"
+            },
+            "Text": {
+              "$type": "color",
+              "$value": "{System.alwaysBlack}"
+            }
+          }
+        },
+        "textLabel": {
+          "Text": {
+            "$type": "color",
+            "$value": "#000000"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "$type": "color",
+            "$value": "rgba(255, 255, 255, 0.0000)"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Icon": {
+            "$type": "color",
+            "$value": "{HU.brand.live}"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          }
+        },
+        "premium": {
+          "Background": {
+            "$type": "color",
+            "$value": "{HU.brand.premium}"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "{HU.brand.premium}"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.alwaysBlack}"
+          }
+        }
+      },
+      "textLabel": {
+        "Sublabel": {
+          "$type": "color",
+          "$value": "{HU.solid.solid-1}"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "{System.textDefault}"
+        }
+      }
+    },
+    "liveblog": {
+      "line": {
+        "Border": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "moment": {
+        "Default": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "Highlight": {
+          "$type": "color",
+          "$value": "#ee090d"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "$type": "color",
+          "$value": "#c00704"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#900503"
+        },
+        "normal": {
+          "$type": "color",
+          "$value": "{HU.solid.solid-1}"
+        },
+        "visited": {
+          "$type": "color",
+          "$value": "#f8494d"
+        }
+      }
+    },
+    "template": {
+      "column": {
+        "Background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "tooltip": {
+      "highlight": {
+        "Background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      }
+    }
+  },
+  "LI": {
+    "component": {
+      "video": {
+        "Play-button-icon": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Primary": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "label": {
+      "boxContainer": {
+        "Background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "textLabel": {
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Icon": {
+            "$type": "color",
+            "$value": "{LI.brand.live}"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{LI.brand.live}"
+          }
+        },
+        "premium": {
+          "Background": {
+            "$type": "color",
+            "$value": "{LI.brand.premium}"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "{LI.brand.premium}"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.alwaysWhite}"
+          }
+        }
+      },
+      "textLabel": {
+        "Text": {
+          "$type": "color",
+          "$value": "{System.textDefault}"
+        }
+      }
+    },
+    "liveblog": {
+      "line": {
+        "Border": {
+          "$type": "color",
+          "$value": "#e26442"
+        }
+      },
+      "moments": {
+        "Default": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Highlight": {
+          "$type": "color",
+          "$value": "#e26442"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "$type": "color",
+          "$value": "#e9795a"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#d46e52"
+        },
+        "normal": {
+          "$type": "color",
+          "$value": "{LI.solid.solid-1}"
+        },
+        "visited": {
+          "$type": "color",
+          "$value": "#f39579"
+        }
+      }
+    },
+    "ratingBox": {
+      "Background": {
+        "$type": "color",
+        "$value": "#ffffff"
+      }
+    },
+    "tooltip": {
+      "gighlight": {
+        "Background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      }
+    }
+  },
+  "MA": {
+    "Paragraph": {
+      "link": {
+        "active": {
+          "$type": "color",
+          "$value": "#569d9d"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#368787"
+        },
+        "normal": {
+          "$type": "color",
+          "$value": "{MA.solid.solid-1}"
+        },
+        "visited": {
+          "$type": "color",
+          "$value": "#87c1c1"
+        }
+      }
+    },
+    "component": {
+      "video": {
+        "Play-button-icon": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Primary": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "$type": "color",
+          "$value": "rgba(255, 255, 255, 0.0000)"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "boxLabel": {
+          "premium": {
+            "Background": {
+              "$type": "color",
+              "$value": "#ffe600"
+            },
+            "Border": {
+              "$type": "color",
+              "$value": "#ffe600"
+            },
+            "Text": {
+              "$type": "color",
+              "$value": "#000000"
+            }
+          }
+        },
+        "textLabel": {
+          "Text": {
+            "$type": "color",
+            "$value": "#000000"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "$type": "color",
+            "$value": "rgba(255, 255, 255, 0.0000)"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "#000000"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "Icon": {
+            "$type": "color",
+            "$value": "#e55657"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "#e55657"
+          }
+        },
+        "premium": {
+          "Background": {
+            "$type": "color",
+            "$value": "#ffe600"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "#ffe600"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.alwaysBlack}"
+          }
+        }
+      },
+      "text-label": {
+        "Text": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      }
+    },
+    "liveblog": {
+      "flag": {
+        "Default": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Highlight": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      },
+      "line": {
+        "Border": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "tooltip": {
+      "highlight": {
+        "Background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      }
+    }
+  },
+  "TR": {
+    "Logo": {
+      "$type": "color",
+      "$value": "{TR.brand.brandPrimary}"
+    },
+    "component": {
+      "group": {
+        "text": {
+          "$type": "color",
+          "$value": "#dddddd"
+        }
+      },
+      "video": {
+        "Play-button-icon": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "Primary": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "boxLabel": {
+          "premium": {
+            "Background": {
+              "$type": "color",
+              "$value": "#000000"
+            },
+            "Border": {
+              "$type": "color",
+              "$value": "#000000"
+            },
+            "Text": {
+              "$type": "color",
+              "$value": "#ffffff"
+            }
+          }
+        },
+        "textLabel": {
+          "Sub": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "$type": "color",
+            "$value": "rgba(255, 255, 255, 0.0000)"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "$type": "color",
+            "$value": "#ffffff"
+          },
+          "Icon": {
+            "$type": "color",
+            "$value": "{TR.brand.live}"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          }
+        },
+        "premium": {
+          "Background": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          }
+        }
+      },
+      "textLabel": {
+        "Main": {
+          "$type": "color",
+          "$value": "{System.textDefault}"
+        },
+        "Sub": {
+          "$type": "color",
+          "$value": "{System.textDefault}"
+        }
+      },
+      "textLabelTeaser": {
+        "Main": {
+          "$type": "color",
+          "$value": "{System.textDefault}"
+        },
+        "Sub": {
+          "$type": "color",
+          "$value": "#82b6c9"
+        }
+      }
+    },
+    "liveblog": {
+      "line": {
+        "Border": {
+          "$type": "color",
+          "$value": "{TR.brand.brandPrimary}"
+        }
+      },
+      "moment": {
+        "Default": {
+          "$type": "color",
+          "$value": "{System.textDefault}"
+        },
+        "Highlight": {
+          "$type": "color",
+          "$value": "{TR.solid.solid-1}"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "{System.textDefault}"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "$type": "color",
+          "$value": "#154669"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#154669"
+        },
+        "normal": {
+          "$type": "color",
+          "$value": "{TR.solid.solid-1}"
+        },
+        "visited": {
+          "$type": "color",
+          "$value": "#00487a"
+        }
+      }
+    }
+  },
+  "VK": {
+    "Decorative-divider": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "component": {
+      "video": {
+        "Play-icon": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "Primary": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "$type": "color",
+          "$value": "rgba(255, 255, 255, 0.0000)"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "textLabel": {
+          "Text": {
+            "$type": "color",
+            "$value": "{System.textDefault}"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.6000)"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "#000000"
+          }
+        },
+        "liveblog": {
+          "Background": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "Icon": {
+            "$type": "color",
+            "$value": "{VK.brand.live}"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "{VK.brand.live}"
+          }
+        },
+        "premium": {
+          "Background": {
+            "$type": "color",
+            "$value": "#000000"
+          },
+          "Border": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Text": {
+            "$type": "color",
+            "$value": "#ffffff"
+          }
+        }
+      },
+      "textLabel": {
+        "Text": {
+          "$type": "color",
+          "$value": "{System.textDefault}"
+        }
+      }
+    },
+    "liveblog": {
+      "line": {
+        "Border": {
+          "$type": "color",
+          "$value": "#0097d8"
+        }
+      },
+      "moment": {
+        "Default": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Highlight": {
+          "$type": "color",
+          "$value": "{VK.brand.live}"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "#ffffff"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "$type": "color",
+          "$value": "#0097d8"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#0074a3"
+        },
+        "normal": {
+          "$type": "color",
+          "$value": "{VK.solid.solid-1}"
+        },
+        "visited": {
+          "$type": "color",
+          "$value": "#30b8f2"
+        }
+      }
+    }
+  },
+  "WL": {
+    "tooltip": {
+      "default": {
+        "Background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#d4d4d4"
+        },
+        "Icon": {
+          "$type": "color",
+          "$value": "#000000"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "{System.textDefault}"
+        }
+      },
+      "inverted": {
+        "Background": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "#d4d4d4"
+        },
+        "Icon": {
+          "$type": "color",
+          "$value": "#ffffff"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      }
+    }
+  }
+}
