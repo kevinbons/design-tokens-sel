@@ -1,0 +1,650 @@
+{
+  "Helper": {
+    "helper-bg-h": {
+      "$type": "color",
+      "$value": "rgba(255, 255, 255, 0.0000)"
+    },
+    "helper-bg-overwrite": {
+      "$type": "color",
+      "$value": "rgba(255, 255, 255, 0.0000)"
+    },
+    "helper-bg-v": {
+      "$type": "color",
+      "$value": "rgba(255, 255, 255, 0.0000)"
+    },
+    "helper-border-h": {
+      "$type": "color",
+      "$value": "rgba(255, 255, 255, 0.0000)"
+    },
+    "helper-border-overwrite": {
+      "$type": "color",
+      "$value": "rgba(255, 255, 255, 0.0000)"
+    },
+    "helper-border-v": {
+      "$type": "color",
+      "$value": "rgba(255, 255, 255, 0.0000)"
+    },
+    "helper-text-h": {
+      "$type": "color",
+      "$value": "rgba(255, 255, 255, 0.0000)"
+    },
+    "helper-text-overwrite": {
+      "$type": "color",
+      "$value": "rgba(255, 255, 255, 0.0000)"
+    },
+    "helper-text-v": {
+      "$type": "color",
+      "$value": "rgba(255, 255, 255, 0.0000)"
+    }
+  },
+  "article": {
+    "UAM": {
+      "Top": {
+        "Text-disclaimer": {
+          "$type": "string",
+          "$value": "De journalisten van {CurrentBrand} zijn niet betrokken en niet verantwoordelijk voor de inhoud van dit artikel"
+        },
+        "Text-label -mags": {
+          "$type": "string",
+          "$value": "Je leest een artikel uit"
+        },
+        "Text-label-news": {
+          "$type": "string",
+          "$value": "U leest een artikel uit"
+        },
+        "Text-sublabel-AD": {
+          "$type": "string",
+          "$value": "AD"
+        },
+        "Text-sublabel-BD": {
+          "$type": "string",
+          "$value": "Brabants Dagblad"
+        },
+        "Text-sublabel-BND": {
+          "$type": "string",
+          "$value": "BN DeStem"
+        },
+        "Text-sublabel-DG": {
+          "$type": "string",
+          "$value": "de Gelderlander"
+        },
+        "Text-sublabel-DS": {
+          "$type": "string",
+          "$value": "de Stentor"
+        },
+        "Text-sublabel-ED": {
+          "$type": "string",
+          "$value": "ED"
+        },
+        "Text-sublabel-FL": {
+          "$type": "string",
+          "$value": "Flair"
+        },
+        "Text-sublabel-HP": {
+          "$type": "string",
+          "$value": "Het Parool"
+        },
+        "Text-sublabel-LI": {
+          "$type": "string",
+          "$value": "Libelle"
+        },
+        "Text-sublabel-MA": {
+          "$type": "string",
+          "$value": "Margriet"
+        },
+        "Text-sublabel-PZ": {
+          "$type": "string",
+          "$value": "PZC"
+        },
+        "Text-sublabel-TB": {
+          "$type": "string",
+          "$value": "Tubantia"
+        },
+        "Text-sublabel-TR": {
+          "$type": "string",
+          "$value": "Trouw"
+        },
+        "Text-sublabel-VK": {
+          "$type": "string",
+          "$value": "de Volkskrant"
+        }
+      }
+    },
+    "accordeon": {
+      "accordeonChapterHeader": {
+        "$type": "string",
+        "$value": "Verantwoording"
+      },
+      "accordeonParagraph": {
+        "$type": "string",
+        "$value": "De plaats en omvang van de goudmijnen in Suriname zijn in kaart gebracht met luchtfoto’s van de Amerikaanse Landsat-satellieten en van het bedrijf Planet Labs. Opnamen van het laatste kwartaal van 2023 zijn gebruikt om de goudmijnen van dat jaar te tonen."
+      },
+      "accordeonSubHeader": {
+        "$type": "string",
+        "$value": "Artificiële intelligentie"
+      }
+    },
+    "advertorial": {
+      "Advertorial-teaser": {
+        "$type": "string",
+        "$value": "In oktober 2024 is Affordable Art Fair Amsterdam terug met haar 18e editie. Trakteer uzelf op een artistiek avontuur."
+      },
+      "Inline": {
+        "Text-disclaimer": {
+          "$type": "string",
+          "$value": "De journalisten van {CurrentBrand} zijn niet betrokken en niet verantwoordelijk voor de inhoud van dit artikel"
+        }
+      },
+      "Top": {
+        "Text-disclaimer": {
+          "$type": "string",
+          "$value": "De journalisten van {CurrentBrand} zijn niet betrokken en niet verantwoordelijk voor de inhoud van dit artikel"
+        },
+        "Text-helper": {
+          "$type": "string",
+          "$value": "Wat is dit?"
+        },
+        "Text-label": {
+          "$type": "string",
+          "$value": "Advertentie van"
+        },
+        "Text-sublabel": {
+          "$type": "string",
+          "$value": "The Affordable Art Fair"
+        }
+      },
+      "advertorialLabel": {
+        "$type": "string",
+        "$value": "Advertentie"
+      },
+      "advertorialSubLabel": {
+        "$type": "string",
+        "$value": "OV PAY"
+      }
+    },
+    "body": {
+      "Answer": {
+        "$type": "string",
+        "$value": "Dit is een voorbeeld van een antwoord paragraaftwoord"
+      },
+      "Chapterheader": {
+        "$type": "string",
+        "$value": "Prikkelarmoede"
+      },
+      "Paragraph": {
+        "$type": "string",
+        "$value": "Toen zij tijdens de coronacrisis thuis beter uit de verf bleken te komen dan op kantoor, zijn introverte mensen zich tegen ieders verwachting in gaan verenigen, op sociale media. Het verschil tussen de intro’s en extra’s is, kort gezegd: introverten laden op door stilte en alleen zijn, extraverten leven op in een groep en staan liever in het middelpunt."
+      },
+      "Question": {
+        "$type": "string",
+        "$value": "Dit is een voorbeeld van een vraag paragraaf"
+      },
+      "Subheading": {
+        "$type": "string",
+        "$value": "Isn’t this fun?"
+      },
+      "Subheading-basis": {
+        "$type": "string",
+        "$value": "Isn’t this fun?"
+      },
+      "Subheading-column": {
+        "$type": "string",
+        "$value": "Isn’t this fun?"
+      },
+      "Subheading-luxe": {
+        "$type": "string",
+        "$value": "Isn’t this fun?"
+      },
+      "Subheading-photooverlay": {
+        "$type": "string",
+        "$value": "Isn’t this fun?"
+      }
+    },
+    "bookmarkTooltip": {
+      "tooltipMainlabel": {
+        "$type": "string",
+        "$value": "Nieuw!"
+      },
+      "tooltipSublabel": {
+        "$type": "string",
+        "$value": "Voor ingelogde gebruikers"
+      }
+    },
+    "dropcap": {
+      "Letter": {
+        "$type": "string",
+        "$value": "H"
+      },
+      "P-Dropcap-end": {
+        "$type": "string",
+        "$value": "bezems tegen peuters vocht, ben ik er even in gaan zitten. Het leek me meteen dat deze ruimte barstensvol politieke lading zat: een mooier symbool voor de kleinzerige rubbertegelgeneratie kun je je als populist niet wensen."
+      },
+      "P-Dropcap-start": {
+        "$type": "string",
+        "$value": "et een mens soms allemaal eventjes te veel wordt, staat in het nieuwe Nijntje Museum een prikkelarme cabine. Terwijl mijn zoon buiten met bezems tegen peuters vocht, ben ik er even in gaan zitten. Het leek me meteen dat deze ruimte barstensvol politieke lading zat: een mooier symbool voor de kleinzerige rubbertegelgeneratie kun je je als populist niet wensen."
+      }
+    },
+    "editorialTips": {
+      "Heading": {
+        "$type": "string",
+        "$value": "Lees ook"
+      },
+      "Subheading": {
+        "$type": "string",
+        "$value": "Geselecteerd door de redactie"
+      },
+      "Teaser-title": {
+        "$type": "string",
+        "$value": "Cryptobeurs Binance staat op het punt om voor miljarden dollars te schikken met de Amerikaanse Justitie en het ministerie van de Extra Lange Titels"
+      }
+    },
+    "group": {
+      "groupChapterHeader": {
+        "$type": "string",
+        "$value": "Iedereen beroemd "
+      },
+      "groupParagraph": {
+        "$type": "string",
+        "$value": "Dagelijks reportage magazine waarin elke dag iets nieuws te beleven valt. De volgende 3 studenten maken hun intrede in het kot. "
+      },
+      "groupSubheading": {
+        "$type": "string",
+        "$value": "Iedereen beroemd "
+      }
+    },
+    "groupUnfold": {
+      "button": {
+        "TextClose": {
+          "$type": "string",
+          "$value": "Sluiten"
+        },
+        "TextOpen": {
+          "$type": "string",
+          "$value": "Lees verder"
+        }
+      },
+      "groupUnfoldChapterheader": {
+        "$type": "string",
+        "$value": "Verantwoording"
+      },
+      "groupUnfoldParagraph": {
+        "$type": "string",
+        "$value": "De plaats en omvang van de goudmijnen in Suriname zijn in kaart gebracht met luchtfoto’s van de Amerikaanse Landsat-satellieten en van het bedrijf Planet Labs. Opnamen van het laatste kwartaal van 2023 zijn gebruikt om de goudmijnen van dat jaar te tonen."
+      },
+      "groupUnfoldParagraphUnfolded": {
+        "$type": "string",
+        "$value": "Met behulp van artificiële intelligentie (AI) zijn de goudmijnen op de satellietbeelden getekend, om zo de omvang van de mijnbouw zichtbaar te maken. De gevonden resultaten zijn vervolgens gecontroleerd en waar nodig aangepast. De goudmijnen op de historische Landsat-satellietbeelden zijn handmatig ingetekend, omdat de kwaliteit van de opnamen te laag was voor verwerking door AI. Voor elk decennium is gebruik gemaakt van beschikbare luchtfoto’s met zeer weinig bewolking, van maximaal twee jaar rond het ijkpunt (1988-1992, 1998-2002, 2008-2012). "
+      },
+      "groupUnfoldSubheading": {
+        "$type": "string",
+        "$value": "Artificiële intelligentie"
+      }
+    },
+    "header": {
+      "articleCredits": {
+        "creditsDate": {
+          "$type": "string",
+          "$value": "Datum"
+        },
+        "creditsDateDots": {
+          "$type": "string",
+          "$value": "Datum:"
+        },
+        "creditsImage": {
+          "$type": "string",
+          "$value": "Beeld"
+        },
+        "creditsImageDots": {
+          "$type": "string",
+          "$value": "Beeld:"
+        },
+        "creditsText": {
+          "$type": "string",
+          "$value": "Tekst"
+        },
+        "creditsTextDots": {
+          "$type": "string",
+          "$value": "Tekst:"
+        }
+      },
+      "byline": {
+        "and": {
+          "$type": "string",
+          "$value": "en"
+        },
+        "author1": {
+          "$type": "string",
+          "$value": "Maarten Keulemans"
+        },
+        "author2": {
+          "$type": "string",
+          "$value": "Jurre Berg"
+        },
+        "author3": {
+          "$type": "string",
+          "$value": "Boran Gulik"
+        },
+        "longDesc": {
+          "$type": "string",
+          "$value": "Wetenschapsredacteur, journalist van het jaar (2021) en praat over nieuws in de wetenschap."
+        },
+        "overwrite": {
+          "$type": "string",
+          "$value": "Live verslaggeving vanaf de bezoekerstribune in de Tweede Kamer, Den Haag."
+        },
+        "role": {
+          "$type": "string",
+          "$value": "Regioverslaggever"
+        },
+        "shortDesc": {
+          "$type": "string",
+          "$value": "Wetenschapsredacteur"
+        }
+      },
+      "date": {
+        "Date-notime": {
+          "$type": "string",
+          "$value": "22 februari 2024"
+        },
+        "Date-time": {
+          "$type": "string",
+          "$value": "22 februari 2024, 12:15"
+        },
+        "Date1": {
+          "$type": "string",
+          "$value": "22 februari 2024"
+        },
+        "Date2": {
+          "$type": "string",
+          "$value": "23 februari 2024"
+        },
+        "Latest-update": {
+          "$type": "string",
+          "$value": "Laatste update: "
+        },
+        "Latest-update-nodots": {
+          "$type": "string",
+          "$value": "Laatste update "
+        },
+        "Time1": {
+          "$type": "string",
+          "$value": "12:58"
+        },
+        "Time2": {
+          "$type": "string",
+          "$value": "13:37"
+        }
+      },
+      "intro": {
+        "$type": "string",
+        "$value": "Toen de organisatie van de KEI-introductieweek in Groningen woensdag bekendmaakte dat ook de introweek dit jaar een prikkelarme ruimte heeft, tweette Caroline van der Plas dat haar generatie van de huidige jeugd ‘sneeuwvlokjes’ heeft gemaakt. Ze kreeg het aan de stok met mensen met adhd en autisme die al jaren pleiten voor dit soort ruimten, maar de organisatie noemde geen specifieke doelgroep voor de cabine. Ik denk dat Van der Plas met haar komkommertijd-tweet buiten een nog bredere beweging rekende: de stille revolutie van de introverten."
+      },
+      "photoSource": {
+        "$type": "string",
+        "$value": "Photo source"
+      },
+      "title": {
+        "Basic": {
+          "$type": "string",
+          "$value": "Caroline van der Plas heeft buiten de stille revolutie van de introverten gerekend"
+        },
+        "Column": {
+          "$type": "string",
+          "$value": "Caroline van der Plas heeft buiten de stille revolutie van de introverten gerekend"
+        },
+        "Liveblog": {
+          "$type": "string",
+          "$value": "Ontdek wat er allemaal te doen op donderdag 23 mei van de Libelle-Margriet Zomerweek"
+        },
+        "Luxe": {
+          "$type": "string",
+          "$value": "Caroline van der Plas heeft buiten de stille revolutie van de introverten gerekend"
+        },
+        "Opinion": {
+          "$type": "string",
+          "$value": "Het verpleeghuis leert je wat van waarde is in het leven"
+        },
+        "Photo-overlay": {
+          "$type": "string",
+          "$value": "Caroline van der Plas heeft buiten de stille revolutie van de introverten gerekend"
+        },
+        "Video": {
+          "$type": "string",
+          "$value": "Caroline van der Plas heeft buiten de stille revolutie van de introverten gerekend"
+        }
+      }
+    },
+    "label": {
+      "HP": {
+        "premium": {
+          "$type": "string",
+          "$value": "Plus"
+        }
+      },
+      "advertorial-1": {
+        "$type": "string",
+        "$value": "Aanbevolen door"
+      },
+      "advertorial-2": {
+        "$type": "string",
+        "$value": "Aangeboden door"
+      },
+      "date": {
+        "$type": "string",
+        "$value": "Datum"
+      },
+      "label": {
+        "$type": "string",
+        "$value": "Column"
+      },
+      "label-2": {
+        "$type": "string",
+        "$value": "Tekst"
+      },
+      "label-3": {
+        "$type": "string",
+        "$value": "Beeld"
+      },
+      "liveblog": {
+        "$type": "string",
+        "$value": "Liveblog"
+      },
+      "premium": {
+        "$type": "string",
+        "$value": "Premium"
+      },
+      "sublabel": {
+        "$type": "string",
+        "$value": "De spookcoluminst"
+      }
+    },
+    "link": {
+      "Active": {
+        "$type": "string",
+        "$value": "Ontdek nog veel meer (active)"
+      },
+      "Hover": {
+        "$type": "string",
+        "$value": "Ontdek nog veel meer (hover)"
+      },
+      "No-link": {
+        "$type": "string",
+        "$value": "ignore"
+      },
+      "Normal": {
+        "$type": "string",
+        "$value": "Ontdek nog veel meer (default)"
+      },
+      "Visited": {
+        "$type": "string",
+        "$value": "Ontdek nog veel meer (visited)"
+      }
+    },
+    "liveBlog": {
+      "Header-link": {
+        "$type": "string",
+        "$value": "Bekijk de belangrijkste updates"
+      },
+      "Header-text": {
+        "$type": "string",
+        "$value": "Meer lezen? Lees alles over de verkiezingen rondom verschillende thema's, zoals migratie, klimaat en wonen, in onze dossiers."
+      },
+      "button": {
+        "Read-full": {
+          "$type": "string",
+          "$value": "Naar het volledige liveblog"
+        },
+        "Read-newer": {
+          "$type": "string",
+          "$value": "Toon nieuwere berichten"
+        },
+        "Read-older": {
+          "$type": "string",
+          "$value": "Toon oudere berichten"
+        },
+        "Refresh": {
+          "$type": "string",
+          "$value": "Nieuwe berichten (3)"
+        }
+      },
+      "heading": {
+        "Live-heading": {
+          "$type": "string",
+          "$value": "Live"
+        }
+      },
+      "highlights": {
+        "Highlight-title-link": {
+          "$type": "string",
+          "$value": "Cryptobeurs Binance staat op het punt om voor miljarden dollars te schikken met de Amerikaanse Justitie en het ministerie van de Extra Lange Titels"
+        },
+        "Highlights-heading": {
+          "$type": "string",
+          "$value": "Uitgelicht"
+        },
+        "Highlights-time-1": {
+          "$type": "string",
+          "$value": "3 min. geleden  •  Brits vrachtschip voor kust Jemen beschoten met twee raketten"
+        },
+        "Highlights-time-2": {
+          "$type": "string",
+          "$value": "Vandaag, 07:30  •  Leven in vluchtelingenkamp Jenin is leven tussen de zwartgeblakerde gevels en blubberige stegenaVandaag, 07:30  •  Leven in vluchtelingenkamp Jenin is leven tussen de zwartgeblakerde gevels en blubberige stegen"
+        },
+        "Highlights-time-3": {
+          "$type": "string",
+          "$value": "Gisteren, 13:37  •  VS vallen raketsystemen van Houthi's in Jemen aan"
+        },
+        "Highlights-time-4": {
+          "$type": "string",
+          "$value": "20/02/2024, 09:14  •  VN-commissie roept Israël op hulp aan Gaza te vergemakkelijken"
+        }
+      },
+      "moment": {
+        "citedQuoteMoment": {
+          "$type": "string",
+          "$value": "Inter-Agency Standing Committee"
+        },
+        "headingMoment-1": {
+          "$type": "string",
+          "$value": "Israël zegt dat het veilig is voor inwoners van grensplaatsen om terug te keren"
+        },
+        "headingMoment-2": {
+          "$type": "string",
+          "$value": "VN-commissie roept Israël op hulp aan Gaza te vergemakkelijken"
+        },
+        "organisationQuoteMoment": {
+          "$type": "string",
+          "$value": "IASC"
+        },
+        "paragraphMoment-1": {
+          "$type": "string",
+          "$value": "Het Israëlische leger heeft gezegd dat ontheemde inwoners van woonplaatsen op meer dan 4 kilometer van de Gazastrook veilig kunnen terugkeren. Datzelfde geldt voor de inwoners van in totaal achttien plaatsen dichter bij de grens. Daaronder vallen verschillende plekken die op 7 oktober door terroristen van Hamas zijn aangevallen, zoals de stad Sderot en de kibboets Zikim."
+        },
+        "paragraphMoment-2": {
+          "$type": "string",
+          "$value": "De VN-commissie die de samenwerking faciliteert tussen humanitaire organisaties van de VN en buiten de VN, heeft Israël opgeroepen zijn 'wettelijke verplichting' na te komen om voedsel en medische voorraden aan Gaza te leveren en hulpoperaties te vergemakkelijken."
+        },
+        "quoteMoment": {
+          "$type": "string",
+          "$value": "Humanitaire organisaties blijven zich inzetten, ondanks de risico's. Maar ze kunnen niet aan hun lot worden overgelaten"
+        }
+      },
+      "newsItem": {
+        "Liveblog-heading": {
+          "$type": "string",
+          "$value": "Leven in vluchtelingenkamp Jenin is leven tussen de zwartgeblakerde gevels en blubberige stegen"
+        },
+        "Timestamp": {
+          "$type": "string",
+          "$value": "3 min. geleden"
+        }
+      }
+    },
+    "liveblogSubheading": {
+      "$type": "string",
+      "$value": "Liveblog"
+    },
+    "photo": {
+      "Photo-description": {
+        "$type": "string",
+        "$value": "Eiger, Grindelwald Switzerland. "
+      },
+      "Photo-source": {
+        "$type": "string",
+        "$value": "Beeld Markus Spiske"
+      },
+      "Photo-source2": {
+        "$type": "string",
+        "$value": "door Markus Spiske"
+      }
+    },
+    "quote": {
+      "Name-of-cited": {
+        "$type": "string",
+        "$value": "Michael Foley"
+      },
+      "Organisation": {
+        "$type": "string",
+        "$value": "Filosoof"
+      },
+      "quoteWithQuotes": {
+        "$type": "string",
+        "$value": "'De introverten van nu zouden tegen Foley zeggen dat lol is gekoloniseerd door extraverten.'"
+      },
+      "quoteWithoutQuotes": {
+        "$type": "string",
+        "$value": "De introverten van nu zouden tegen Foley zeggen dat lol is gekoloniseerd door extraverten."
+      }
+    },
+    "ratingBox": {
+      "Rating-box-heading": {
+        "$type": "string",
+        "$value": "Review titel"
+      },
+      "Rating-box-subheading": {
+        "$type": "string",
+        "$value": "Toen zij tijdens de coronacrisis thuis beter uit de verf bleken te komen dan op kantoor, zijn introverte mensen zich tegen ieders verwachting in gaan verenigen, op sociale media. Het verschil tussen de intro’s en extra’s is, kort gezegd: introverten laden op door stilte en alleen zijn, extraverten leven op in een groep en staan liever in het middelpunt."
+      }
+    },
+    "recommendedTips": {
+      "heading": {
+        "$type": "string",
+        "$value": "Aanbevolen artikelen"
+      },
+      "subheading": {
+        "$type": "string",
+        "$value": "Op basis van bovenstaand artikel"
+      },
+      "subheadingTeaser": {
+        "$type": "string",
+        "$value": "Cryptobeurs Binance staat op het punt om voor miljarden dollars te schikken met de Amerikaanse Justitie en het ministerie van de Extra Lange Titels"
+      }
+    },
+    "share": {
+      "Socialshare": {
+        "$type": "string",
+        "$value": "Kopieer de link van het artikel"
+      }
+    }
+  }
+}
