@@ -1,0 +1,627 @@
+{
+  "DM": {
+    "brand": {
+      "brandPrimary": {
+        "type": "color",
+        "value": "#e71629"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "live": {
+        "type": "color",
+        "value": "#ed1b2f"
+      },
+      "premium": {
+        "type": "color",
+        "value": "#ed1b2f"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "premiumText 2": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#ffffff"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "type": "color",
+        "value": "#e71629"
+      },
+      "solid-2": {
+        "type": "color",
+        "value": "#00425f"
+      },
+      "solid-3": {
+        "type": "color",
+        "value": "#2b87a6"
+      },
+      "solid-4": {
+        "type": "color",
+        "value": "#f58e92"
+      },
+      "solid-5": {
+        "type": "color",
+        "value": "#e71629"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "#fff0e0"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "#e0edf2"
+      },
+      "surface-3": {
+        "type": "color",
+        "value": "#ecf5f2"
+      },
+      "surface-4": {
+        "type": "color",
+        "value": "#edeae9"
+      },
+      "surface-5": {
+        "type": "color",
+        "value": "#e7e3e1"
+      }
+    }
+  },
+  "FL": {
+    "brand": {
+      "brandPrimary": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "#1fab68"
+      },
+      "live": {
+        "type": "color",
+        "value": "#1fab68"
+      },
+      "premium": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#ffffff"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "type": "color",
+        "value": "#1fab68"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "#f9f4f0"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "#f6eee8"
+      }
+    }
+  },
+  "HP": {
+    "brand": {
+      "brandPrimary": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "#d72236"
+      },
+      "live": {
+        "type": "color",
+        "value": "#d72236"
+      },
+      "premium": {
+        "type": "color",
+        "value": "#d72236"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#ffffff"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "type": "color",
+        "value": "#d72236"
+      },
+      "solid-2": {
+        "type": "color",
+        "value": "#921d2e"
+      },
+      "solid-3": {
+        "type": "color",
+        "value": "#d72236"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "#fbe9eb"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "#fffcec"
+      }
+    }
+  },
+  "HU": {
+    "brand": {
+      "brandPrimary": {
+        "type": "color",
+        "value": "#ee090d"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "{System.alwaysWhite}"
+      },
+      "live": {
+        "type": "color",
+        "value": "#ee090d"
+      },
+      "premium": {
+        "type": "color",
+        "value": "#fbf503"
+      },
+      "premiumText": {
+        "type": "color",
+        "value": "{System.alwaysBlack}"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "type": "color",
+        "value": "#ee090d"
+      },
+      "solid-2": {
+        "type": "color",
+        "value": "#a81633"
+      },
+      "solid-3": {
+        "type": "color",
+        "value": "#fbf503"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "#fffce6"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "#fff9ec"
+      },
+      "surface-3": {
+        "type": "color",
+        "value": "#f0fbf3"
+      },
+      "surface-4": {
+        "type": "color",
+        "value": "#e6f4fa"
+      }
+    }
+  },
+  "LI": {
+    "brand": {
+      "brandPrimary": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#e9795a"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "live": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#e9795a"
+      },
+      "premium": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#ea908d"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#ffffff"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#e9795a"
+      },
+      "solid-2": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#ea908d"
+      },
+      "solid-3": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#1bab9a"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#fefaf8"
+      },
+      "surface-10": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#fff4ea"
+      },
+      "surface-11": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#fff0e3"
+      },
+      "surface-12": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#ebd4cd"
+      },
+      "surface-2": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#fdeee9"
+      },
+      "surface-3": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#fce4da"
+      },
+      "surface-4": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#fdf2ef"
+      },
+      "surface-5": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#ebc8b2"
+      },
+      "surface-6": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#faf8f4"
+      },
+      "surface-7": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#f0ebe7"
+      },
+      "surface-8": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#e2f4f2"
+      },
+      "surface-9": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#c2e3da"
+      }
+    }
+  },
+  "MA": {
+    "brand": {
+      "brandPrimary": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "#ffeb33"
+      },
+      "live": {
+        "type": "color",
+        "value": "#e55657"
+      },
+      "premium": {
+        "type": "color",
+        "value": "#ffeb33"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#000000"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "type": "color",
+        "value": "#368787"
+      },
+      "solid-2": {
+        "type": "color",
+        "value": "#7fbdbd"
+      },
+      "solid-3": {
+        "type": "color",
+        "value": "#fdd10d"
+      },
+      "solid-4": {
+        "type": "color",
+        "value": "#fff26a"
+      },
+      "solid-5": {
+        "type": "color",
+        "value": "#fca017"
+      },
+      "solid-6": {
+        "type": "color",
+        "value": "#e55657"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "#eff7f7"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "#fffcd7"
+      },
+      "surface-3": {
+        "type": "color",
+        "value": "#fbeadc"
+      },
+      "surface-4": {
+        "type": "color",
+        "value": "#f8e0e0"
+      }
+    }
+  },
+  "System": {
+    "alert": {
+      "type": "color",
+      "value": "#e4aa1e"
+    },
+    "alwaysBlack": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "alwaysWhite": {
+      "type": "color",
+      "value": "#ffffff"
+    },
+    "error": {
+      "type": "color",
+      "value": "#c21f31"
+    },
+    "grayBorder": {
+      "type": "color",
+      "value": "#d4d4d4"
+    },
+    "iconBoxed": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "iconPrimary": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "iconPrimaryInverted": {
+      "type": "color",
+      "value": "#ffffff"
+    },
+    "iconSecondary": {
+      "type": "color",
+      "value": "rgba(0, 0, 0, 0.6000)"
+    },
+    "iconSecondaryInverted": {
+      "type": "color",
+      "value": "rgba(255, 255, 255, 0.7000)"
+    },
+    "success": {
+      "type": "color",
+      "value": "#3caa58"
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "surface-1-inverted": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "#f2f2f2"
+      },
+      "surface-2-inverted": {
+        "type": "color",
+        "value": "#000000"
+      }
+    },
+    "textPrimary": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "textPrimaryInverted": {
+      "type": "color",
+      "value": "#ffffff"
+    },
+    "textSecondary": {
+      "type": "color",
+      "value": "rgba(0, 0, 0, 0.6000)"
+    },
+    "textSecondaryInverted": {
+      "type": "color",
+      "value": "rgba(255, 255, 255, 0.7000)"
+    }
+  },
+  "TR": {
+    "brand": {
+      "brandPrimary": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#005693"
+      },
+      "brandSecondairy": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#005693"
+      },
+      "live": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#005693"
+      },
+      "premium": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#005693"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#ffffff"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#005693"
+      },
+      "solid-2": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#e5d03f"
+      },
+      "solid-3": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#354a5c"
+      },
+      "solid-4": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#82b6c9"
+      },
+      "solid-5": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#bf4a3f"
+      },
+      "solid-6": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#8e1917"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#e5eaed"
+      },
+      "surface-2": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#dde4e8"
+      },
+      "surface-3": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "surface-4": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#0d3551"
+      },
+      "surface-5": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#002a48"
+      }
+    }
+  },
+  "VK": {
+    "brand": {
+      "brandPrimary": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "{VK.brand.brandPrimary}"
+      },
+      "live": {
+        "type": "color",
+        "value": "#ec3826"
+      },
+      "premium": {
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#000000"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "type": "color",
+        "value": "#0097d8"
+      },
+      "solid-2": {
+        "type": "color",
+        "value": "#000000"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "#f7fafc"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "#e9f6fb"
+      },
+      "surface-3": {
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "surface-4": {
+        "type": "color",
+        "value": "#f2f2f2"
+      },
+      "surface-5": {
+        "type": "color",
+        "value": "#eaeaea"
+      },
+      "surface-6": {
+        "type": "color",
+        "value": "#ffffff"
+      }
+    }
+  }
+}
