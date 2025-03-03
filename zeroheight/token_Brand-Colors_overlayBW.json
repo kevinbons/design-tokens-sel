@@ -1,0 +1,627 @@
+{
+  "DM": {
+    "brand": {
+      "brandPrimary": {
+        "type": "color",
+        "value": "#e71629"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "live": {
+        "type": "color",
+        "value": "#ed1b2f"
+      },
+      "premium": {
+        "type": "color",
+        "value": "#ed1b2f"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "premiumText 2": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#ffffff"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "solid-2": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "solid-3": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "solid-4": {
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "solid-5": {
+        "type": "color",
+        "value": "#000000"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-3": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-4": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-5": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      }
+    }
+  },
+  "FL": {
+    "brand": {
+      "brandPrimary": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "#1fab68"
+      },
+      "live": {
+        "type": "color",
+        "value": "#1fab68"
+      },
+      "premium": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#ffffff"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "type": "color",
+        "value": "#1fab68"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      }
+    }
+  },
+  "HP": {
+    "brand": {
+      "brandPrimary": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "live": {
+        "type": "color",
+        "value": "#d72236"
+      },
+      "premium": {
+        "type": "color",
+        "value": "#d72236"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#ffffff"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "type": "color",
+        "value": "#d72236"
+      },
+      "solid-2": {
+        "type": "color",
+        "value": "#921d2e"
+      },
+      "solid-3": {
+        "type": "color",
+        "value": "#d72236"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      }
+    }
+  },
+  "HU": {
+    "brand": {
+      "brandPrimary": {
+        "type": "color",
+        "value": "#ee090d"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "{System.alwaysWhite}"
+      },
+      "live": {
+        "type": "color",
+        "value": "#ee090d"
+      },
+      "premium": {
+        "type": "color",
+        "value": "#fbf503"
+      },
+      "premiumText": {
+        "type": "color",
+        "value": "{System.alwaysBlack}"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "type": "color",
+        "value": "#ee090d"
+      },
+      "solid-2": {
+        "type": "color",
+        "value": "#a81633"
+      },
+      "solid-3": {
+        "type": "color",
+        "value": "#000000"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-3": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-4": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      }
+    }
+  },
+  "LI": {
+    "brand": {
+      "brandPrimary": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#e9795a"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "live": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#e9795a"
+      },
+      "premium": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#ea908d"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#ffffff"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#e9795a"
+      },
+      "solid-2": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#ea908d"
+      },
+      "solid-3": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#1bab9a"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-10": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-11": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-12": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-2": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-3": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-4": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-5": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-6": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-7": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-8": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-9": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      }
+    }
+  },
+  "MA": {
+    "brand": {
+      "brandPrimary": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "live": {
+        "type": "color",
+        "value": "#e55657"
+      },
+      "premium": {
+        "type": "color",
+        "value": "#fff26a"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#000000"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "type": "color",
+        "value": "#368787"
+      },
+      "solid-2": {
+        "type": "color",
+        "value": "#7fbdbd"
+      },
+      "solid-3": {
+        "type": "color",
+        "value": "#fdd10d"
+      },
+      "solid-4": {
+        "type": "color",
+        "value": "#fff26a"
+      },
+      "solid-5": {
+        "type": "color",
+        "value": "#fca017"
+      },
+      "solid-6": {
+        "type": "color",
+        "value": "#e55657"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-3": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-4": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      }
+    }
+  },
+  "System": {
+    "alert": {
+      "type": "color",
+      "value": "#e4aa1e"
+    },
+    "alwaysBlack": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "alwaysWhite": {
+      "type": "color",
+      "value": "#ffffff"
+    },
+    "error": {
+      "type": "color",
+      "value": "#c21f31"
+    },
+    "grayBorder": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "iconBoxed": {
+      "type": "color",
+      "value": "#ffffff"
+    },
+    "iconPrimary": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "iconPrimaryInverted": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "iconSecondary": {
+      "type": "color",
+      "value": "rgba(0, 0, 0, 0.6000)"
+    },
+    "iconSecondaryInverted": {
+      "type": "color",
+      "value": "rgba(0, 0, 0, 0.6000)"
+    },
+    "success": {
+      "type": "color",
+      "value": "#3caa58"
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-1-inverted": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-2-inverted": {
+        "type": "color",
+        "value": "#000000"
+      }
+    },
+    "textPrimary": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "textPrimaryInverted": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "textSecondary": {
+      "type": "color",
+      "value": "rgba(0, 0, 0, 0.6000)"
+    },
+    "textSecondaryInverted": {
+      "type": "color",
+      "value": "rgba(0, 0, 0, 0.7000)"
+    }
+  },
+  "TR": {
+    "brand": {
+      "brandPrimary": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#005693"
+      },
+      "brandSecondairy": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#005693"
+      },
+      "live": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#005693"
+      },
+      "premium": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#005693"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#ffffff"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#005693"
+      },
+      "solid-2": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#e5d03f"
+      },
+      "solid-3": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#354a5c"
+      },
+      "solid-4": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#82b6c9"
+      },
+      "solid-5": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#bf4a3f"
+      },
+      "solid-6": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#8e1917"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-2": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-3": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-4": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-5": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      }
+    }
+  },
+  "VK": {
+    "brand": {
+      "brandPrimary": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "brandSecondairy": {
+        "type": "color",
+        "value": "{VK.brand.brandPrimary}"
+      },
+      "live": {
+        "type": "color",
+        "value": "#ec3826"
+      },
+      "premium": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "premiumText": {
+        "comment": "trouw",
+        "type": "color",
+        "value": "#000000"
+      }
+    },
+    "solid": {
+      "solid-1": {
+        "type": "color",
+        "value": "#0097d8"
+      },
+      "solid-2": {
+        "type": "color",
+        "value": "#000000"
+      }
+    },
+    "surface": {
+      "surface-1": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-2": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-3": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-4": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-5": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "surface-6": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      }
+    }
+  }
+}
