@@ -1,391 +1,999 @@
 {
-  "label": {
-    "iconColor": {
-      "type": "color",
-      "value": "{System.iconPrimary}"
-    },
-    "live": {
-      "backgroundColor": {
-        "type": "color",
-        "value": "rgba(0, 0, 0, 0.0000)"
-      },
-      "borderColor": {
-        "type": "color",
-        "value": "rgba(0, 0, 0, 0.0000)"
-      },
+  "body": {
+    "primary": {
       "fontFamily": {
         "type": "string",
-        "value": "Swiss 721"
+        "value": "{FL.fontFamilySerif3}"
       },
-      "fontSize": {
+      "fontScale-l": {
         "type": "number",
-        "value": 16
+        "value": "{fsize.fontsize-200}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-150}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-090}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-085}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-350}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-080}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-425}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-075}"
       },
       "fontWeight": {
         "type": "string",
-        "value": "light condensed"
+        "value": "{fweight.weight-400}"
       },
-      "gapH": {
-        "type": "number",
-        "value": 4
-      },
-      "iconColor": {
-        "type": "color",
-        "value": "{FL.brand.live}"
-      },
-      "iconShown": {
-        "type": "boolean",
-        "value": true
-      },
-      "spacingH": {
-        "type": "number",
-        "value": "{spacing-none}"
-      },
-      "spacingV": {
-        "type": "number",
-        "value": "{spacing-none}"
-      },
-      "textColor": {
-        "type": "color",
-        "value": "{FL.brand.live}"
-      },
-      "textShown": {
-        "type": "boolean",
-        "value": true
-      },
-      "textString": {
-        "type": "string",
-        "value": "Live"
-      },
-      "upperCase": {
+      "uppercase": {
         "type": "boolean",
         "value": false
       }
     },
-    "main": {
-      "backgroundColor": {
-        "type": "color",
-        "value": "rgba(0, 0, 0, 0.0000)"
-      },
-      "borderColor": {
-        "type": "color",
-        "value": "rgba(0, 0, 0, 0.0000)"
-      },
+    "quaternary": {
       "fontFamily": {
         "type": "string",
-        "value": "Swiss 721"
+        "value": "{FL.fontFamilySans3}"
       },
-      "fontSize": {
+      "fontScale-l": {
         "type": "number",
-        "value": 16
+        "value": "{fsize.fontsize-250}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-200}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-400}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-090}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-450}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-085}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-080}"
       },
       "fontWeight": {
         "type": "string",
-        "value": "light condensed"
+        "value": "{fweight.weight-700}"
       },
-      "gapH": {
-        "type": "number",
-        "value": "{spacing-none}"
-      },
-      "iconColor": {
-        "type": "color",
-        "value": "rgba(0, 0, 0, 0.0000)"
-      },
-      "iconShown": {
-        "type": "boolean",
-        "value": false
-      },
-      "spacingH": {
-        "type": "number",
-        "value": "{spacing-none}"
-      },
-      "spacingV": {
-        "type": "number",
-        "value": "{spacing-none}"
-      },
-      "textColor": {
-        "type": "color",
-        "value": "{System.textPrimary}"
-      },
-      "textShown": {
-        "type": "boolean",
-        "value": true
-      },
-      "textString": {
-        "type": "string",
-        "value": "Main"
-      },
-      "upperCase": {
-        "type": "boolean",
-        "value": false
-      }
-    },
-    "premium": {
-      "backgroundColor": {
-        "type": "color",
-        "value": "{FL.brand.premium}"
-      },
-      "backgroundColor 2": {
-        "type": "color",
-        "value": "{FL.brand.premium}"
-      },
-      "backgroundColor 3": {
-        "type": "color",
-        "value": "{FL.brand.premium}"
-      },
-      "backgroundColor 4": {
-        "type": "color",
-        "value": "{FL.brand.premium}"
-      },
-      "backgroundColor 5": {
-        "type": "color",
-        "value": "{FL.brand.premium}"
-      },
-      "backgroundColor 6": {
-        "type": "color",
-        "value": "{FL.brand.premium}"
-      },
-      "backgroundMinH": {
-        "type": "number",
-        "value": 18
-      },
-      "borderColor": {
-        "type": "color",
-        "value": "rgba(0, 0, 0, 0.0000)"
-      },
-      "fontFamily": {
-        "type": "string",
-        "value": "Swiss 721"
-      },
-      "fontSize": {
-        "type": "number",
-        "value": 10
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "light condensed"
-      },
-      "gapH": {
-        "type": "number",
-        "value": 4
-      },
-      "hasPremium": {
-        "type": "boolean",
-        "value": true
-      },
-      "iconColor": {
-        "type": "color",
-        "value": "{System.iconPrimaryInverted}"
-      },
-      "iconMinH": {
-        "type": "number",
-        "value": 0
-      },
-      "iconShown": {
-        "type": "boolean",
-        "value": false
-      },
-      "spacingH": {
-        "type": "number",
-        "value": 4
-      },
-      "spacingV": {
-        "type": "number",
-        "value": 4
-      },
-      "textColor": {
-        "type": "color",
-        "value": "{FL.brand.premiumText}"
-      },
-      "textShown": {
-        "type": "boolean",
-        "value": true
-      },
-      "textString": {
-        "type": "string",
-        "value": "Premium"
-      },
-      "upperCase": {
+      "uppercase": {
         "type": "boolean",
         "value": true
       }
     },
-    "sub": {
-      "backgroundColor": {
-        "type": "color",
-        "value": "rgba(0, 0, 0, 0.0000)"
-      },
-      "borderColor": {
-        "type": "color",
-        "value": "rgba(0, 0, 0, 0.0000)"
-      },
+    "secondary": {
       "fontFamily": {
         "type": "string",
-        "value": "Swiss 721"
+        "value": "{FL.fontFamilySerif3}"
       },
-      "fontSize": {
+      "fontScale-l": {
         "type": "number",
-        "value": 16
+        "value": "{fsize.fontsize-200}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-150}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-090}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-085}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-350}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-080}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-425}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-075}"
       },
       "fontWeight": {
         "type": "string",
-        "value": "bold condensed"
+        "value": "{fweight.weight-700}"
       },
-      "gapH": {
-        "type": "number",
-        "value": "{spacing-none}"
-      },
-      "iconColor": {
-        "type": "color",
-        "value": "rgba(0, 0, 0, 0.0000)"
-      },
-      "iconShown": {
-        "type": "boolean",
-        "value": false
-      },
-      "spacingH": {
-        "type": "number",
-        "value": "{spacing-none}"
-      },
-      "spacingV": {
-        "type": "number",
-        "value": "{spacing-none}"
-      },
-      "textColor": {
-        "type": "color",
-        "value": "{System.textPrimary}"
-      },
-      "textShown": {
-        "type": "boolean",
-        "value": false
-      },
-      "textString": {
-        "type": "string",
-        "value": "Sub"
-      },
-      "upperCase": {
+      "uppercase": {
         "type": "boolean",
         "value": false
       }
     },
-    "textColor": {
-      "type": "color",
-      "value": "{System.textPrimary}"
-    },
-    "uam": {
-      "backgroundColor": {
-        "type": "color",
-        "value": "rgba(0, 0, 0, 0.0000)"
-      },
-      "backgroundMinH": {
-        "type": "number",
-        "value": 18
-      },
-      "borderColor": {
-        "type": "color",
-        "value": "rgba(0, 0, 0, 0.0000)"
-      },
+    "tertiary": {
       "fontFamily": {
         "type": "string",
-        "value": "Swiss 721"
+        "value": "{FL.fontFamilySans3}"
       },
-      "fontSize": {
+      "fontScale-l": {
         "type": "number",
-        "value": 16
+        "value": "{fsize.fontsize-250}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-200}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-400}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-090}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-450}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-085}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-080}"
       },
       "fontWeight": {
         "type": "string",
-        "value": "light condensed"
+        "value": "{fweight.weight-300}"
       },
-      "gapH": {
-        "type": "number",
-        "value": "{spacing-none}"
-      },
-      "iconColor": {
-        "type": "color",
-        "value": "{System.iconPrimary}"
-      },
-      "iconMinH": {
-        "type": "number",
-        "value": 0
-      },
-      "iconShown": {
-        "type": "boolean",
-        "value": true
-      },
-      "spacingH": {
-        "type": "number",
-        "value": "{spacing-none}"
-      },
-      "spacingV": {
-        "type": "number",
-        "value": "{spacing-none}"
-      },
-      "textColor": {
-        "type": "color",
-        "value": "{System.textPrimary}"
-      },
-      "textShown": {
-        "type": "boolean",
-        "value": false
-      },
-      "textString": {
-        "type": "string",
-        "value": "UAM-logo"
-      },
-      "upperCase": {
+      "uppercase": {
         "type": "boolean",
         "value": false
       }
     }
   },
-  "label-container": {
-    "boxed": {
-      "gapV": {
-        "type": "number",
-        "value": 4
+  "brand": {
+    "type": "string",
+    "value": "FL"
+  },
+  "display": {
+    "primary": {
+      "fontFamily": {
+        "type": "string",
+        "value": "{FL.fontFamilySerif1}"
       },
-      "premium": {
-        "borderColor": {
-          "type": "color",
-          "value": "rgba(0, 0, 0, 0.0000)"
-        },
-        "iconColor": {
-          "type": "color",
-          "value": "#000000"
-        }
+      "fontScale-l": {
+        "type": "number",
+        "value": "{fsize.fontsize-800}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-625}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-525}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-875}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-475}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-900}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-400}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-1000}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-1075}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-250}"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "{fweight.weight-700}"
+      },
+      "uppercase": {
+        "type": "boolean",
+        "value": false
       }
     },
-    "default": {
-      "backgroundColor": {
-        "type": "color",
-        "value": "rgba(0, 0, 0, 0.0000)"
+    "quaternary": {
+      "fontFamily": {
+        "type": "string",
+        "value": "{FL.fontFamilySans1}"
       },
-      "borderColor": {
-        "type": "color",
-        "value": "rgba(0, 0, 0, 0.0000)"
-      },
-      "gapH": {
+      "fontScale-l": {
         "type": "number",
-        "value": 6
+        "value": "{fsize.fontsize-900}"
       },
-      "gapV": {
+      "fontScale-m": {
         "type": "number",
-        "value": 6
+        "value": "{fsize.fontsize-800}"
       },
-      "spacingH": {
+      "fontScale-s": {
         "type": "number",
-        "value": "{spacing-none}"
+        "value": "{fsize.fontsize-700}"
       },
-      "spacingV": {
+      "fontScale-xl": {
         "type": "number",
-        "value": "{spacing-none}"
+        "value": "{fsize.fontsize-1000}"
       },
-      "uam": {
-        "logoColor": {
-          "type": "color",
-          "value": "{System.iconPrimary}"
-        }
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-1050}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-1100}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-450}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-1200}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-400}"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "{fweight.weight-400}"
+      },
+      "uppercase": {
+        "type": "boolean",
+        "value": false
+      }
+    },
+    "secondary": {
+      "fontFamily": {
+        "type": "string",
+        "value": "{FL.fontFamilySerif2}"
+      },
+      "fontScale-l": {
+        "type": "number",
+        "value": "{fsize.fontsize-800}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-700}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-525}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-850}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-475}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-875}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-400}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-950}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-1050}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-250}"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "{fweight.weight-400}"
+      },
+      "uppercase": {
+        "type": "boolean",
+        "value": false
+      }
+    },
+    "tertiary": {
+      "fontFamily": {
+        "type": "string",
+        "value": "{FL.fontFamilySans1}"
+      },
+      "fontScale-l": {
+        "type": "number",
+        "value": "{fsize.fontsize-900}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-800}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-1000}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-1050}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-1100}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-450}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-1200}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-400}"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "{fweight.weight-900}"
+      },
+      "uppercase": {
+        "type": "boolean",
+        "value": false
+      }
+    }
+  },
+  "headline": {
+    "primary": {
+      "fontFamily": {
+        "type": "string",
+        "value": "{FL.fontFamilySerif1}"
+      },
+      "fontScale-l": {
+        "type": "number",
+        "value": "{fsize.fontsize-400}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-300}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-425}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-095}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-090}"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "{fweight.weight-700}"
+      },
+      "uppercase": {
+        "type": "boolean",
+        "value": false
+      }
+    },
+    "quaternary": {
+      "fontFamily": {
+        "type": "string",
+        "value": "{FL.fontFamilySans2}"
+      },
+      "fontScale-l": {
+        "type": "number",
+        "value": "{fsize.fontsize-450}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-400}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-800}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-100}"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "{fweight.weight-900}"
+      },
+      "uppercase": {
+        "type": "boolean",
+        "value": false
+      }
+    },
+    "quinary": {
+      "fontFamily": {
+        "type": "string",
+        "value": "{FL.fontFamilySans2}"
+      },
+      "fontScale-l": {
+        "type": "number",
+        "value": "{fsize.fontsize-450}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-400}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-800}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-100}"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "{fweight.weight-900}"
+      },
+      "uppercase": {
+        "type": "boolean",
+        "value": false
+      }
+    },
+    "secondary": {
+      "fontFamily": {
+        "type": "string",
+        "value": "{FL.fontFamilySerif2}"
+      },
+      "fontScale-l": {
+        "type": "number",
+        "value": "{fsize.fontsize-400}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-300}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-425}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-095}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-090}"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "{fweight.weight-400}"
+      },
+      "uppercase": {
+        "type": "boolean",
+        "value": false
+      }
+    },
+    "tertiary": {
+      "fontFamily": {
+        "type": "string",
+        "value": "{FL.fontFamilySans1}"
+      },
+      "fontScale-l": {
+        "type": "number",
+        "value": "{fsize.fontsize-450}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-400}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-300}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-500}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-600}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-700}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-800}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-100}"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "{fweight.weight-300}"
+      },
+      "uppercase": {
+        "type": "boolean",
+        "value": false
+      }
+    }
+  },
+  "label": {
+    "primary": {
+      "fontFamily": {
+        "type": "string",
+        "value": "Acumin Pro Wide"
+      },
+      "fontScale-l": {
+        "type": "number",
+        "value": "{fsize.fontsize-090}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-085}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-080}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-075}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-070}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-060}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-050}"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "{fweight.weight-900}"
+      },
+      "uppercase": {
+        "type": "boolean",
+        "value": false
+      }
+    },
+    "quaternary": {
+      "fontFamily": {
+        "type": "string",
+        "value": "Acumin Pro Wide"
+      },
+      "fontScale-l": {
+        "type": "number",
+        "value": "{fsize.fontsize-090}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-085}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-080}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-075}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-070}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-060}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-050}"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "{fweight.weight-300}"
+      },
+      "uppercase": {
+        "type": "boolean",
+        "value": false
+      }
+    },
+    "secondary": {
+      "fontFamily": {
+        "type": "string",
+        "value": "Acumin Pro Wide"
+      },
+      "fontScale-l": {
+        "type": "number",
+        "value": "{fsize.fontsize-090}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-085}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-080}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-075}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-070}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-060}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-050}"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "{fweight.weight-300}"
+      },
+      "uppercase": {
+        "type": "boolean",
+        "value": false
+      }
+    },
+    "tertiary": {
+      "fontFamily": {
+        "type": "string",
+        "value": "Acumin Pro Wide"
+      },
+      "fontScale-l": {
+        "type": "number",
+        "value": "{fsize.fontsize-090}"
+      },
+      "fontScale-m": {
+        "type": "number",
+        "value": "{fsize.fontsize-085}"
+      },
+      "fontScale-s": {
+        "type": "number",
+        "value": "{fsize.fontsize-080}"
+      },
+      "fontScale-xl": {
+        "type": "number",
+        "value": "{fsize.fontsize-100}"
+      },
+      "fontScale-xs": {
+        "type": "number",
+        "value": "{fsize.fontsize-075}"
+      },
+      "fontScale-xxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-150}"
+      },
+      "fontScale-xxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-070}"
+      },
+      "fontScale-xxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-200}"
+      },
+      "fontScale-xxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-060}"
+      },
+      "fontScale-xxxxl": {
+        "type": "number",
+        "value": "{fsize.fontsize-250}"
+      },
+      "fontScale-xxxxs": {
+        "type": "number",
+        "value": "{fsize.fontsize-050}"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "{fweight.weight-700}"
+      },
+      "uppercase": {
+        "type": "boolean",
+        "value": false
       }
     }
   }
