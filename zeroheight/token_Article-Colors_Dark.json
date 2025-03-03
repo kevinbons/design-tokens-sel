@@ -1,0 +1,1404 @@
+{
+  "AV": {
+    "disclaimer": {
+      "DM": {
+        "Background": {
+          "type": "color",
+          "value": "#262626"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      },
+      "HP": {
+        "Background": {
+          "type": "color",
+          "value": "#262626"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      },
+      "TR": {
+        "Background": {
+          "type": "color",
+          "value": "#262626"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#3a3a3a"
+        }
+      },
+      "WL": {
+        "Background": {
+          "type": "color",
+          "value": "#262626"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#3a3a3a"
+        }
+      }
+    },
+    "linkStyles": {
+      "DM": {
+        "Text": {
+          "type": "color",
+          "value": "#dddddd"
+        }
+      },
+      "HP": {
+        "Text": {
+          "type": "color",
+          "value": "#dddddd"
+        }
+      },
+      "TR": {
+        "Text": {
+          "type": "color",
+          "value": "#dddddd"
+        }
+      },
+      "WL": {
+        "Text": {
+          "type": "color",
+          "value": "#dddddd"
+        }
+      }
+    },
+    "photoCredit": {
+      "DM": {
+        "Text": {
+          "type": "color",
+          "value": "#dddddd"
+        }
+      },
+      "HP": {
+        "Text": {
+          "type": "color",
+          "value": "#dddddd"
+        }
+      },
+      "TR": {
+        "Text": {
+          "type": "color",
+          "value": "#dddddd"
+        }
+      },
+      "WL": {
+        "Text": {
+          "type": "color",
+          "value": "#dddddd"
+        }
+      }
+    }
+  },
+  "DM": {
+    "components": {
+      "quote": {
+        "text": {
+          "type": "color",
+          "value": "#dddddd"
+        }
+      },
+      "topbar": {
+        "logo-de": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "logo-morgen": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      },
+      "video": {
+        "Play-button-icon": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "Primary": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "boxLabel": {
+          "premium": {
+            "Background": {
+              "type": "color",
+              "value": "#d72236"
+            },
+            "Border": {
+              "type": "color",
+              "value": "#d72236"
+            },
+            "Text": {
+              "type": "color",
+              "value": "#ffffff"
+            }
+          }
+        },
+        "textLabel": {
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimaryInverted}"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Border": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Icon": {
+            "type": "color",
+            "value": "{DM.brand.live}"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{DM.brand.live}"
+          }
+        },
+        "premium": {
+          "Background": {
+            "type": "color",
+            "value": "{DM.brand.premium}"
+          },
+          "Border": {
+            "type": "color",
+            "value": "{DM.brand.premium}"
+          },
+          "Text": {
+            "type": "color",
+            "value": "#ffffff"
+          }
+        }
+      },
+      "textLabel": {
+        "Text": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      }
+    },
+    "liveblog": {
+      "flag": {
+        "Default": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "Highlight": {
+          "type": "color",
+          "value": "#ed1b2f"
+        },
+        "Text": {
+          "type": "color",
+          "value": "#000000"
+        }
+      },
+      "line": {
+        "Border": {
+          "type": "color",
+          "value": "#ed1b2f"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "type": "color",
+          "value": "#e71629"
+        },
+        "hover": {
+          "type": "color",
+          "value": "#a81321"
+        },
+        "normal": {
+          "type": "color",
+          "value": "{DM.solid.solid-1}"
+        },
+        "visited": {
+          "type": "color",
+          "value": "#f36674"
+        }
+      }
+    },
+    "template": {
+      "column": {
+        "Background": {
+          "type": "color",
+          "value": "#1d1d1d"
+        }
+      }
+    }
+  },
+  "FL": {
+    "component": {
+      "Video": {
+        "Play-button-icon": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "Primary": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      },
+      "label": {
+        "premium": {
+          "background": {
+            "type": "color",
+            "value": "#000000"
+          },
+          "text": {
+            "type": "color",
+            "value": "#ffffff"
+          }
+        }
+      },
+      "list-item": {
+        "bullit": {
+          "type": "color",
+          "value": "#1fab68"
+        }
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "type": "color",
+          "value": "#dddddd"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#1d1d1d"
+        },
+        "boxLabel": {
+          "advertorial": {
+            "Background": {
+              "type": "color",
+              "value": "#f8f1ed"
+            },
+            "Border": {
+              "type": "color",
+              "value": "#f8f1ed"
+            },
+            "Text": {
+              "type": "color",
+              "value": "#1d1d1d"
+            }
+          },
+          "premium": {
+            "Background": {
+              "type": "color",
+              "value": "#000000"
+            },
+            "Border": {
+              "type": "color",
+              "value": "#000000"
+            },
+            "Text": {
+              "type": "color",
+              "value": "#ffffff"
+            }
+          }
+        },
+        "textLabel": {
+          "Text": {
+            "type": "color",
+            "value": "#ffffff"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "type": "color",
+            "value": "#000000"
+          },
+          "Border": {
+            "type": "color",
+            "value": "#818181"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Icon": {
+            "type": "color",
+            "value": "{FL.brand.live}"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{FL.brand.live}"
+          }
+        },
+        "premium": {
+          "Background": {
+            "type": "color",
+            "value": "#000000"
+          },
+          "Border": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Text": {
+            "type": "color",
+            "value": "#ffffff"
+          }
+        }
+      },
+      "textLabel": {
+        "Text": {
+          "type": "color",
+          "value": "#dddddd"
+        }
+      }
+    },
+    "liveblog": {
+      "line": {
+        "Border": {
+          "type": "color",
+          "value": "#1c9c5f"
+        }
+      },
+      "moments": {
+        "Default": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "Highlight": {
+          "type": "color",
+          "value": "#1c9c5f"
+        },
+        "Text": {
+          "type": "color",
+          "value": "#000000"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "type": "color",
+          "value": "#1fab68"
+        },
+        "hover": {
+          "type": "color",
+          "value": "#147045"
+        },
+        "normal": {
+          "type": "color",
+          "value": "{FL.solid.solid-1}"
+        },
+        "visited": {
+          "type": "color",
+          "value": "#69c79a"
+        }
+      }
+    },
+    "ragingBox": {
+      "Background": {
+        "type": "color",
+        "value": "#212121"
+      }
+    }
+  },
+  "HP": {
+    "component": {
+      "ratingBox": {
+        "background": {
+          "type": "color",
+          "value": "#262626"
+        }
+      },
+      "video": {
+        "Play-button-icon": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "Primary": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    },
+    "dropcap": {
+      "Border": {
+        "type": "color",
+        "value": "#1d1d1d"
+      },
+      "Letter": {
+        "type": "color",
+        "value": "#1d1d1d"
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "Border": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "textLabel": {
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Border": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Icon": {
+            "type": "color",
+            "value": "{HP.brand.live}"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{HP.brand.live}"
+          }
+        },
+        "premium": {
+          "Background": {
+            "type": "color",
+            "value": "{HP.brand.premium}"
+          },
+          "Border": {
+            "type": "color",
+            "value": "{HP.brand.premium}"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.alwaysWhite}"
+          }
+        }
+      }
+    },
+    "liveblog": {
+      "line": {
+        "Border": {
+          "type": "color",
+          "value": "#d72236"
+        }
+      },
+      "moments": {
+        "Background": {
+          "type": "color",
+          "value": "#c41f31"
+        },
+        "Default": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "Text": {
+          "type": "color",
+          "value": "#000000"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "type": "color",
+          "value": "#d72236"
+        },
+        "hover": {
+          "type": "color",
+          "value": "#921d2e"
+        },
+        "normal": {
+          "type": "color",
+          "value": "{HP.solid.solid-1}"
+        },
+        "visited": {
+          "type": "color",
+          "value": "#ef3e51"
+        }
+      }
+    },
+    "template": {
+      "background": {
+        "Column": {
+          "type": "color",
+          "value": "#1d1d1d"
+        }
+      }
+    }
+  },
+  "HU": {
+    "component": {
+      "ratingBox": {
+        "border": {
+          "type": "color",
+          "value": "#262626"
+        }
+      },
+      "video": {
+        "Play-button-icon": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "Primary": {
+          "type": "color",
+          "value": "#ee090d"
+        }
+      }
+    },
+    "group": {
+      "Group-background": {
+        "type": "color",
+        "value": "#212121"
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "type": "color",
+          "value": "#dddddd"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "boxLabel": {
+          "premium": {
+            "Background": {
+              "type": "color",
+              "value": "#fbf503"
+            },
+            "Border": {
+              "type": "color",
+              "value": "#fbf503"
+            },
+            "Text": {
+              "type": "color",
+              "value": "{System.alwaysBlack}"
+            }
+          }
+        },
+        "textLabel": {
+          "Text": {
+            "type": "color",
+            "value": "#dddddd"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "type": "color",
+            "value": "#4d4d4d"
+          },
+          "Border": {
+            "type": "color",
+            "value": "#727272"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Icon": {
+            "type": "color",
+            "value": "{HU.brand.live}"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        },
+        "premium": {
+          "Background": {
+            "type": "color",
+            "value": "{HU.brand.premium}"
+          },
+          "Border": {
+            "type": "color",
+            "value": "{HU.brand.premium}"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.alwaysBlack}"
+          }
+        }
+      },
+      "textLabel": {
+        "Sublabel": {
+          "type": "color",
+          "value": "{HU.solid.solid-1}"
+        },
+        "Text": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      }
+    },
+    "liveblog": {
+      "line": {
+        "Border": {
+          "type": "color",
+          "value": "#ee090d"
+        }
+      },
+      "moment": {
+        "Default": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "Highlight": {
+          "type": "color",
+          "value": "#ee090d"
+        },
+        "Text": {
+          "type": "color",
+          "value": "#000000"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "type": "color",
+          "value": "#c00704"
+        },
+        "hover": {
+          "type": "color",
+          "value": "#900503"
+        },
+        "normal": {
+          "type": "color",
+          "value": "{HU.solid.solid-1}"
+        },
+        "visited": {
+          "type": "color",
+          "value": "#f8494d"
+        }
+      }
+    },
+    "template": {
+      "column": {
+        "Background": {
+          "type": "color",
+          "value": "#1d1d1d"
+        }
+      }
+    },
+    "tooltip": {
+      "highlight": {
+        "Background": {
+          "type": "color",
+          "value": "#262626"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#6a6a6a"
+        },
+        "Text": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    }
+  },
+  "LI": {
+    "component": {
+      "video": {
+        "Play-button-icon": {
+          "type": "color",
+          "value": "#1bab9a"
+        },
+        "Primary": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    },
+    "label": {
+      "boxContainer": {
+        "Background": {
+          "type": "color",
+          "value": "#1d1d1d"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#dddddd"
+        },
+        "textLabel": {
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Border": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Icon": {
+            "type": "color",
+            "value": "{LI.brand.live}"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{LI.brand.live}"
+          }
+        },
+        "premium": {
+          "Background": {
+            "type": "color",
+            "value": "{LI.brand.premium}"
+          },
+          "Border": {
+            "type": "color",
+            "value": "{LI.brand.premium}"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.alwaysWhite}"
+          }
+        }
+      },
+      "textLabel": {
+        "Text": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      }
+    },
+    "liveblog": {
+      "line": {
+        "Border": {
+          "type": "color",
+          "value": "#e26442"
+        }
+      },
+      "moments": {
+        "Default": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "Highlight": {
+          "type": "color",
+          "value": "#e26442"
+        },
+        "Text": {
+          "type": "color",
+          "value": "#000000"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "type": "color",
+          "value": "#e9795a"
+        },
+        "hover": {
+          "type": "color",
+          "value": "#d46e52"
+        },
+        "normal": {
+          "type": "color",
+          "value": "{LI.solid.solid-1}"
+        },
+        "visited": {
+          "type": "color",
+          "value": "#f39579"
+        }
+      }
+    },
+    "ratingBox": {
+      "Background": {
+        "type": "color",
+        "value": "#38251f"
+      }
+    },
+    "tooltip": {
+      "gighlight": {
+        "Background": {
+          "type": "color",
+          "value": "#262626"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#6a6a6a"
+        },
+        "Text": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    }
+  },
+  "MA": {
+    "Paragraph": {
+      "link": {
+        "active": {
+          "type": "color",
+          "value": "#569d9d"
+        },
+        "hover": {
+          "type": "color",
+          "value": "#368787"
+        },
+        "normal": {
+          "type": "color",
+          "value": "{MA.solid.solid-1}"
+        },
+        "visited": {
+          "type": "color",
+          "value": "#87c1c1"
+        }
+      }
+    },
+    "component": {
+      "video": {
+        "Play-button-icon": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "Primary": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "type": "color",
+          "value": "#dddddd"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#1d1d1d"
+        },
+        "boxLabel": {
+          "premium": {
+            "Background": {
+              "type": "color",
+              "value": "#ffe600"
+            },
+            "Border": {
+              "type": "color",
+              "value": "#ffe600"
+            },
+            "Text": {
+              "type": "color",
+              "value": "#000000"
+            }
+          }
+        },
+        "textLabel": {
+          "Text": {
+            "type": "color",
+            "value": "#ffffff"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "type": "color",
+            "value": "#ffffff"
+          },
+          "Border": {
+            "type": "color",
+            "value": "#4d4d4d"
+          },
+          "Text": {
+            "type": "color",
+            "value": "#dddddd"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "type": "color",
+            "value": "#818181"
+          },
+          "Icon": {
+            "type": "color",
+            "value": "#e55657"
+          },
+          "Text": {
+            "type": "color",
+            "value": "#e55657"
+          }
+        },
+        "premium": {
+          "Background": {
+            "type": "color",
+            "value": "#ffe600"
+          },
+          "Border": {
+            "type": "color",
+            "value": "#ffe600"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.alwaysBlack}"
+          }
+        }
+      },
+      "text-label": {
+        "Text": {
+          "type": "color",
+          "value": "#dddddd"
+        }
+      }
+    },
+    "liveblog": {
+      "flag": {
+        "Default": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "Highlight": {
+          "type": "color",
+          "value": "#368787"
+        },
+        "Text": {
+          "type": "color",
+          "value": "#000000"
+        }
+      },
+      "line": {
+        "Border": {
+          "type": "color",
+          "value": "#368787"
+        }
+      }
+    },
+    "tooltip": {
+      "highlight": {
+        "Background": {
+          "type": "color",
+          "value": "#262626"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#6a6a6a"
+        },
+        "Text": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    }
+  },
+  "TR": {
+    "Logo": {
+      "type": "color",
+      "value": "{TR.brand.brandPrimary}"
+    },
+    "component": {
+      "group": {
+        "text": {
+          "type": "color",
+          "value": "#82b6c9"
+        }
+      },
+      "video": {
+        "Play-button-icon": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "Primary": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "boxLabel": {
+          "premium": {
+            "Background": {
+              "type": "color",
+              "value": "#dddddd"
+            },
+            "Border": {
+              "type": "color",
+              "value": "#dddddd"
+            },
+            "Text": {
+              "type": "color",
+              "value": "#1d1d1d"
+            }
+          }
+        },
+        "textLabel": {
+          "Sub": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "type": "color",
+            "value": "#dddddd"
+          },
+          "Border": {
+            "type": "color",
+            "value": "#4d4d4d"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        },
+        "liveblog": {
+          "Border": {
+            "type": "color",
+            "value": "#ffffff"
+          },
+          "Icon": {
+            "type": "color",
+            "value": "{TR.brand.live}"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        },
+        "premium": {
+          "Background": {
+            "type": "color",
+            "value": "#000000"
+          },
+          "Border": {
+            "type": "color",
+            "value": "#ffffff"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        }
+      },
+      "textLabel": {
+        "Main": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        },
+        "Sub": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      },
+      "textLabelTeaser": {
+        "Main": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        },
+        "Sub": {
+          "type": "color",
+          "value": "#82b6c9"
+        }
+      }
+    },
+    "liveblog": {
+      "line": {
+        "Border": {
+          "type": "color",
+          "value": "{TR.brand.brandPrimary}"
+        }
+      },
+      "moment": {
+        "Default": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        },
+        "Highlight": {
+          "type": "color",
+          "value": "{TR.solid.solid-1}"
+        },
+        "Text": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "type": "color",
+          "value": "#154669"
+        },
+        "hover": {
+          "type": "color",
+          "value": "#154669"
+        },
+        "normal": {
+          "type": "color",
+          "value": "{TR.solid.solid-1}"
+        },
+        "visited": {
+          "type": "color",
+          "value": "#354a5c"
+        }
+      }
+    }
+  },
+  "VK": {
+    "Decorative-divider": {
+      "type": "color",
+      "value": "#1d1d1d"
+    },
+    "component": {
+      "video": {
+        "Play-icon": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "Primary": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    },
+    "labels": {
+      "boxContainer": {
+        "Background": {
+          "type": "color",
+          "value": "#dddddd"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "textLabel": {
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        }
+      },
+      "boxLabel": {
+        "default": {
+          "Background": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Border": {
+            "type": "color",
+            "value": "rgba(255, 255, 255, 0.6000)"
+          },
+          "Text": {
+            "type": "color",
+            "value": "#dddddd"
+          }
+        },
+        "liveblog": {
+          "Background": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Border": {
+            "type": "color",
+            "value": "#4d4d4d"
+          },
+          "Icon": {
+            "type": "color",
+            "value": "{VK.brand.live}"
+          },
+          "Text": {
+            "type": "color",
+            "value": "#dddddd"
+          }
+        },
+        "premium": {
+          "Background": {
+            "type": "color",
+            "value": "#dddddd"
+          },
+          "Border": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.0000)"
+          },
+          "Text": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        }
+      },
+      "textLabel": {
+        "Text": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      }
+    },
+    "liveblog": {
+      "line": {
+        "Border": {
+          "type": "color",
+          "value": "#0097d8"
+        }
+      },
+      "moment": {
+        "Default": {
+          "type": "color",
+          "value": "#dddddd"
+        },
+        "Highlight": {
+          "type": "color",
+          "value": "{VK.brand.live}"
+        },
+        "Text": {
+          "type": "color",
+          "value": "#dddddd"
+        }
+      }
+    },
+    "paragraph": {
+      "link": {
+        "active": {
+          "type": "color",
+          "value": "#0097d8"
+        },
+        "hover": {
+          "type": "color",
+          "value": "#0074a3"
+        },
+        "normal": {
+          "type": "color",
+          "value": "{VK.solid.solid-1}"
+        },
+        "visited": {
+          "type": "color",
+          "value": "#30b8f2"
+        }
+      }
+    }
+  },
+  "WL": {
+    "tooltip": {
+      "default": {
+        "Background": {
+          "type": "color",
+          "value": "#2b2b2b"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#4d4d4d"
+        },
+        "Icon": {
+          "type": "color",
+          "value": "#dddddd"
+        },
+        "Text": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      },
+      "inverted": {
+        "Background": {
+          "type": "color",
+          "value": "#262626"
+        },
+        "Border": {
+          "type": "color",
+          "value": "#4d4d4d"
+        },
+        "Icon": {
+          "type": "color",
+          "value": "#1d1d1d"
+        },
+        "Text": {
+          "type": "color",
+          "value": "#1d1d1d"
+        }
+      }
+    }
+  }
+}

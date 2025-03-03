@@ -1,0 +1,498 @@
+{
+  "Android": {
+    "article": {
+      "dropcap": {
+        "dropcapLetter": {
+          "type": "number",
+          "value": 29
+        }
+      }
+    }
+  },
+  "Apple": {
+    "article": {
+      "dropcap": {
+        "dropcapLetter": {
+          "type": "number",
+          "value": 29
+        }
+      }
+    }
+  },
+  "DM": {
+    "article": {
+      "dropcap": {
+        "dropcapLetter": {
+          "type": "number",
+          "value": 48
+        }
+      }
+    }
+  },
+  "FL": {
+    "article": {
+      "dropcap": {
+        "dropcapLetter": {
+          "type": "number",
+          "value": 29
+        }
+      }
+    }
+  },
+  "HP": {
+    "article": {
+      "dropcap": {
+        "dropcapLetter": {
+          "type": "number",
+          "value": 48
+        }
+      }
+    }
+  },
+  "HU": {
+    "article": {
+      "dropcap": {
+        "dropcapLetter": {
+          "type": "number",
+          "value": 29
+        }
+      }
+    }
+  },
+  "LI": {
+    "article": {
+      "dropcap": {
+        "dropcapLetter": {
+          "type": "number",
+          "value": 29
+        }
+      }
+    }
+  },
+  "MA": {
+    "article": {
+      "dropcap": {
+        "dropcapLetter": {
+          "type": "number",
+          "value": 29
+        }
+      }
+    }
+  },
+  "TR": {
+    "article": {
+      "dropcap": {
+        "dropcapLetter": {
+          "type": "number",
+          "value": 88
+        }
+      }
+    },
+    "theme1": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "swimlane": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "{TR.surface.surface-1}"
+        }
+      }
+    },
+    "theme2": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "{TR.surface.surface-1}"
+      },
+      "swimlane": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "{TR.surface.surface-2}"
+        }
+      }
+    },
+    "theme3": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "{TR.surface.surface-5}"
+      },
+      "swimlane": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "{TR.surface.surface-5}"
+        }
+      }
+    },
+    "theme4": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "{TR.surface.surface-4}"
+      },
+      "swimlane": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "{TR.surface.surface-5}"
+        }
+      }
+    }
+  },
+  "VK": {
+    "article": {
+      "dropcap": {
+        "dropcapLetter": {
+          "type": "number",
+          "value": 29
+        }
+      }
+    },
+    "theme1": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "gallery": {
+        "photocredit": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      },
+      "swimlane": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#f2f2f2"
+        }
+      }
+    },
+    "theme2": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#f2f2f2"
+      },
+      "gallery": {
+        "photocredit": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      },
+      "swimlane": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "{VK.surface.surface-5}"
+        }
+      }
+    },
+    "theme3": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "gallery": {
+        "photocredit": {
+          "type": "color",
+          "value": "{System.textSecondaryInverted}"
+        },
+        "photodesc": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
+      },
+      "swimlane": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      }
+    },
+    "theme4": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#1d1d1d"
+      },
+      "gallery": {
+        "photocredit": {
+          "type": "color",
+          "value": "{System.textSecondaryInverted}"
+        },
+        "photodesc": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
+      },
+      "swimlane": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#1d1d1d"
+        }
+      }
+    }
+  },
+  "brands": {
+    "HP": {
+      "article": {
+        "dropcap": {
+          "dropcapLetter": {
+            "type": "number",
+            "value": 48
+          }
+        }
+      }
+    }
+  },
+  "outdated": {
+    "article": {
+      "body": {
+        "body-l": {
+          "type": "number",
+          "value": 17
+        },
+        "body-m": {
+          "type": "number",
+          "value": 16
+        },
+        "body-s": {
+          "type": "number",
+          "value": 14
+        },
+        "body-xl": {
+          "type": "number",
+          "value": 19
+        },
+        "body-xs": {
+          "type": "number",
+          "value": 13
+        },
+        "body-xxl": {
+          "type": "number",
+          "value": 20
+        },
+        "body-xxs": {
+          "type": "number",
+          "value": 11
+        },
+        "body-xxxl": {
+          "type": "number",
+          "value": 22
+        },
+        "body-xxxs": {
+          "type": "number",
+          "value": 10
+        }
+      },
+      "compSpacingBottom": {
+        "type": "number",
+        "value": "{outdated.spacing.spacing-xl}"
+      },
+      "display": {
+        "display-l": {
+          "type": "number",
+          "value": 32
+        },
+        "display-m": {
+          "type": "number",
+          "value": 29
+        },
+        "display-s": {
+          "type": "number",
+          "value": 26
+        },
+        "display-xl": {
+          "type": "number",
+          "value": 36
+        },
+        "display-xs": {
+          "type": "number",
+          "value": 22
+        }
+      },
+      "headline": {
+        "headline-l": {
+          "type": "number",
+          "value": 22
+        },
+        "headline-m": {
+          "type": "number",
+          "value": 20
+        },
+        "headline-s": {
+          "type": "number",
+          "value": 19
+        },
+        "headline-xl": {
+          "type": "number",
+          "value": 24
+        },
+        "headline-xs": {
+          "type": "number",
+          "value": 18
+        },
+        "headline-xxl": {
+          "type": "number",
+          "value": 26
+        },
+        "headline-xxs": {
+          "type": "number",
+          "value": 17
+        },
+        "headline-xxxl": {
+          "type": "number",
+          "value": 29
+        },
+        "headline-xxxs": {
+          "type": "number",
+          "value": 16
+        }
+      },
+      "imageGrid": {
+        "stackV-l-xl": {
+          "type": "boolean",
+          "value": false
+        },
+        "stackV-m-l-xl": {
+          "type": "boolean",
+          "value": false
+        },
+        "stackV-s-m-l-xl": {
+          "type": "boolean",
+          "value": true
+        },
+        "stackV-xl": {
+          "type": "boolean",
+          "value": false
+        }
+      },
+      "label": {
+        "label-l": {
+          "type": "number",
+          "value": 13
+        },
+        "label-m": {
+          "type": "number",
+          "value": 12
+        },
+        "label-s": {
+          "type": "number",
+          "value": 11
+        },
+        "label-xl": {
+          "type": "number",
+          "value": 14
+        },
+        "label-xs": {
+          "type": "number",
+          "value": 10
+        },
+        "label-xxl": {
+          "type": "number",
+          "value": 16
+        },
+        "label-xxs": {
+          "type": "number",
+          "value": 9
+        }
+      }
+    },
+    "page": {
+      "articleBodyWidth": {
+        "type": "number",
+        "value": 343
+      },
+      "backgroundcolor-test": {
+        "type": "color",
+        "value": "#3caa58"
+      },
+      "context": {
+        "type": "string",
+        "value": "Portrait"
+      },
+      "device": {
+        "type": "string",
+        "value": "Mobile"
+      },
+      "layoutWidth": {
+        "type": "number",
+        "value": 375
+      },
+      "pageSpacingTop": {
+        "type": "number",
+        "value": "{outdated.spacing.spacing-xxl}"
+      },
+      "viewport-current": {
+        "type": "number",
+        "value": 375
+      },
+      "viewport-max": {
+        "type": "number",
+        "value": 430
+      },
+      "viewport-min": {
+        "type": "number",
+        "value": 320
+      },
+      "web-breakpoint": {
+        "type": "string",
+        "value": "0-639"
+      }
+    },
+    "spacing": {
+      "spacing-l": {
+        "type": "number",
+        "value": 20
+      },
+      "spacing-m": {
+        "type": "number",
+        "value": 16
+      },
+      "spacing-s": {
+        "type": "number",
+        "value": 12
+      },
+      "spacing-xl": {
+        "type": "number",
+        "value": 24
+      },
+      "spacing-xs": {
+        "type": "number",
+        "value": 8
+      },
+      "spacing-xxl": {
+        "type": "number",
+        "value": 32
+      },
+      "spacing-xxs": {
+        "type": "number",
+        "value": 6
+      },
+      "spacing-xxxl": {
+        "type": "number",
+        "value": 40
+      },
+      "spacing-xxxs": {
+        "type": "number",
+        "value": 4
+      },
+      "spacing-xxxxs": {
+        "type": "number",
+        "value": 2
+      }
+    }
+  },
+  "screen": {
+    "type": "string",
+    "value": "Small"
+  },
+  "spacing-none": {
+    "type": "number",
+    "value": 0
+  },
+  "teaserList": {
+    "gap": {
+      "type": "number",
+      "value": 16
+    },
+    "imageWidth": {
+      "type": "number",
+      "value": 74
+    }
+  }
+}

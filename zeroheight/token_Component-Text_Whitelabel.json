@@ -1,0 +1,748 @@
+{
+  "Helper": {
+    "helper-bg-h": {
+      "type": "color",
+      "value": "rgba(4, 121, 134, 0.1000)"
+    },
+    "helper-bg-overwrite": {
+      "type": "color",
+      "value": "rgba(134, 4, 4, 0.1000)"
+    },
+    "helper-bg-v": {
+      "type": "color",
+      "value": "rgba(228, 202, 68, 0.1000)"
+    },
+    "helper-border-h": {
+      "type": "color",
+      "value": "#0099ba"
+    },
+    "helper-border-overwrite": {
+      "type": "color",
+      "value": "#c20606"
+    },
+    "helper-border-v": {
+      "type": "color",
+      "value": "#e4ca44"
+    },
+    "helper-text-h": {
+      "type": "color",
+      "value": "#0099ba"
+    },
+    "helper-text-overwrite": {
+      "type": "color",
+      "value": "#c20606"
+    },
+    "helper-text-v": {
+      "type": "color",
+      "value": "#8a7a29"
+    }
+  },
+  "article": {
+    "UAM": {
+      "Top": {
+        "Text-disclaimer": {
+          "type": "string",
+          "value": "disclaimerParagraph"
+        },
+        "Text-label -mags": {
+          "type": "string",
+          "value": "subLabel-Mags"
+        },
+        "Text-label-news": {
+          "type": "string",
+          "value": "label"
+        },
+        "Text-sublabel-AD": {
+          "type": "string",
+          "value": "subLabel-AD"
+        },
+        "Text-sublabel-BD": {
+          "type": "string",
+          "value": "subLabel-BD"
+        },
+        "Text-sublabel-BND": {
+          "type": "string",
+          "value": "subLabel-BND"
+        },
+        "Text-sublabel-DG": {
+          "type": "string",
+          "value": "subLabel-DG"
+        },
+        "Text-sublabel-DS": {
+          "type": "string",
+          "value": "subLabel-DS"
+        },
+        "Text-sublabel-ED": {
+          "type": "string",
+          "value": "subLabel-ED"
+        },
+        "Text-sublabel-FL": {
+          "type": "string",
+          "value": "subLabel-FL"
+        },
+        "Text-sublabel-HP": {
+          "type": "string",
+          "value": "subLabel-HP"
+        },
+        "Text-sublabel-LI": {
+          "type": "string",
+          "value": "subLabel-LI"
+        },
+        "Text-sublabel-MA": {
+          "type": "string",
+          "value": "subLabel-MA"
+        },
+        "Text-sublabel-PZ": {
+          "type": "string",
+          "value": "subLabel-PZ"
+        },
+        "Text-sublabel-TB": {
+          "type": "string",
+          "value": "subLabel-TB"
+        },
+        "Text-sublabel-TR": {
+          "type": "string",
+          "value": "subLabel-TR"
+        },
+        "Text-sublabel-VK": {
+          "type": "string",
+          "value": "subLabel-VK"
+        }
+      }
+    },
+    "accordeon": {
+      "accordeonChapterHeader": {
+        "type": "string",
+        "value": "accordeonChapterHeader"
+      },
+      "accordeonParagraph": {
+        "type": "string",
+        "value": "accordeonParagraph"
+      },
+      "accordeonSubHeader": {
+        "type": "string",
+        "value": "accordeonSubheading"
+      }
+    },
+    "advertorial": {
+      "Advertorial-teaser": {
+        "type": "string",
+        "value": "advertorialTeaser"
+      },
+      "Inline": {
+        "Text-disclaimer": {
+          "type": "string",
+          "value": "disclaimerParagraph"
+        }
+      },
+      "Top": {
+        "Text-disclaimer": {
+          "type": "string",
+          "value": "disclaimerParagraph"
+        },
+        "Text-helper": {
+          "type": "string",
+          "value": "helperText"
+        },
+        "Text-label": {
+          "type": "string",
+          "value": "label"
+        },
+        "Text-sublabel": {
+          "type": "string",
+          "value": "subLabel"
+        }
+      },
+      "advertorialLabel": {
+        "type": "string",
+        "value": "advertorialLabel"
+      },
+      "advertorialSubLabel": {
+        "type": "string",
+        "value": "advertorialSubLabel"
+      }
+    },
+    "body": {
+      "Answer": {
+        "type": "string",
+        "value": "answer"
+      },
+      "Chapterheader": {
+        "type": "string",
+        "value": "chapterHeader"
+      },
+      "Paragraph": {
+        "type": "string",
+        "value": "paragraph"
+      },
+      "Question": {
+        "type": "string",
+        "value": "question"
+      },
+      "Subheading": {
+        "type": "string",
+        "value": "subheading"
+      },
+      "Subheading-basis": {
+        "type": "string",
+        "value": "subheadingBasis"
+      },
+      "Subheading-column": {
+        "type": "string",
+        "value": "subHeadingColumn"
+      },
+      "Subheading-luxe": {
+        "type": "string",
+        "value": "subHeadingLuxe"
+      },
+      "Subheading-photooverlay": {
+        "type": "string",
+        "value": "subHeadingPhotoOverlay"
+      }
+    },
+    "bookmarkTooltip": {
+      "tooltipMainlabel": {
+        "type": "string",
+        "value": "tooltipSublabel"
+      },
+      "tooltipSublabel": {
+        "type": "string",
+        "value": "tooltipSublabel"
+      }
+    },
+    "dropcap": {
+      "Letter": {
+        "type": "string",
+        "value": "J"
+      },
+      "P-Dropcap-end": {
+        "type": "string",
+        "value": "dropcapEnd"
+      },
+      "P-Dropcap-start": {
+        "type": "string",
+        "value": "dropcapStart"
+      }
+    },
+    "editorialTips": {
+      "Heading": {
+        "type": "string",
+        "value": "headingEditorialtips"
+      },
+      "Subheading": {
+        "type": "string",
+        "value": "subheadingEditorialtips"
+      },
+      "Teaser-title": {
+        "type": "string",
+        "value": "teaserEditorialTips"
+      }
+    },
+    "group": {
+      "groupChapterHeader": {
+        "type": "string",
+        "value": "groupChapterHeader"
+      },
+      "groupParagraph": {
+        "type": "string",
+        "value": "groupParagraph"
+      },
+      "groupSubheading": {
+        "type": "string",
+        "value": "groupSubheading"
+      }
+    },
+    "groupUnfold": {
+      "button": {
+        "TextClose": {
+          "type": "string",
+          "value": "groupButtonTextClose"
+        },
+        "TextOpen": {
+          "type": "string",
+          "value": "groupButtonTextOpen"
+        }
+      },
+      "groupUnfoldChapterheader": {
+        "type": "string",
+        "value": "groupUnfoldChapterheader"
+      },
+      "groupUnfoldParagraph": {
+        "type": "string",
+        "value": "groupUnfoldParagraph"
+      },
+      "groupUnfoldParagraphUnfolded": {
+        "type": "string",
+        "value": "groupUnfoldParagraph"
+      },
+      "groupUnfoldSubheading": {
+        "type": "string",
+        "value": "groupUnfoldSubheading"
+      }
+    },
+    "header": {
+      "articleCredits": {
+        "creditsDate": {
+          "type": "string",
+          "value": "creditsDate"
+        },
+        "creditsDateDots": {
+          "type": "string",
+          "value": "creditsDateDots:"
+        },
+        "creditsImage": {
+          "type": "string",
+          "value": "creditsImage"
+        },
+        "creditsImageDots": {
+          "type": "string",
+          "value": "creditsImageDots:"
+        },
+        "creditsText": {
+          "type": "string",
+          "value": "creditsText"
+        },
+        "creditsTextDots": {
+          "type": "string",
+          "value": "creditsTextDots:"
+        }
+      },
+      "byline": {
+        "and": {
+          "type": "string",
+          "value": "and"
+        },
+        "author1": {
+          "type": "string",
+          "value": "author1"
+        },
+        "author2": {
+          "type": "string",
+          "value": "author2"
+        },
+        "author3": {
+          "type": "string",
+          "value": "author3"
+        },
+        "longDesc": {
+          "type": "string",
+          "value": "longDesc"
+        },
+        "overwrite": {
+          "type": "string",
+          "value": "overwrite"
+        },
+        "role": {
+          "type": "string",
+          "value": "role"
+        },
+        "shortDesc": {
+          "type": "string",
+          "value": "shortDesc"
+        }
+      },
+      "date": {
+        "Date-notime": {
+          "type": "string",
+          "value": "date"
+        },
+        "Date-time": {
+          "type": "string",
+          "value": "dateTime"
+        },
+        "Date1": {
+          "type": "string",
+          "value": "date1"
+        },
+        "Date2": {
+          "type": "string",
+          "value": "date2"
+        },
+        "Latest-update": {
+          "type": "string",
+          "value": "lastUpdate: "
+        },
+        "Latest-update-nodots": {
+          "type": "string",
+          "value": "lastUpdate "
+        },
+        "Time1": {
+          "type": "string",
+          "value": "time1"
+        },
+        "Time2": {
+          "type": "string",
+          "value": "time2"
+        }
+      },
+      "intro": {
+        "Basis": {
+          "type": "string",
+          "value": "introBasic"
+        },
+        "Column": {
+          "type": "string",
+          "value": "introColumn"
+        },
+        "Liveblog": {
+          "type": "string",
+          "value": "introLiveblog"
+        },
+        "Luxe": {
+          "type": "string",
+          "value": "introLuxe"
+        },
+        "Photo-overlay": {
+          "type": "string",
+          "value": "introPhotoOverlay"
+        },
+        "Video": {
+          "type": "string",
+          "value": "introVideo"
+        },
+        "type": "string",
+        "value": "intro"
+      },
+      "photoSource": {
+        "type": "string",
+        "value": "photoSource"
+      },
+      "title": {
+        "Basic": {
+          "type": "string",
+          "value": "titleBasic"
+        },
+        "Column": {
+          "type": "string",
+          "value": "titleColumn"
+        },
+        "Liveblog": {
+          "type": "string",
+          "value": "titleLiveblog"
+        },
+        "Luxe": {
+          "type": "string",
+          "value": "titleLuxe"
+        },
+        "Opinion": {
+          "type": "string",
+          "value": "titleOpinion"
+        },
+        "Photo-overlay": {
+          "type": "string",
+          "value": "titlePhotoOverlay"
+        },
+        "Video": {
+          "type": "string",
+          "value": "titleVideo"
+        }
+      }
+    },
+    "label": {
+      "HP": {
+        "premium": {
+          "type": "string",
+          "value": "premium-hp"
+        }
+      },
+      "advertorial-1": {
+        "type": "string",
+        "value": "advertorial-1"
+      },
+      "advertorial-2": {
+        "type": "string",
+        "value": "advertorial-2"
+      },
+      "date": {
+        "type": "string",
+        "value": "date"
+      },
+      "label": {
+        "type": "string",
+        "value": "label"
+      },
+      "label-2": {
+        "type": "string",
+        "value": "label-text"
+      },
+      "label-3": {
+        "type": "string",
+        "value": "label-image"
+      },
+      "liveblog": {
+        "type": "string",
+        "value": "liveblog"
+      },
+      "premium": {
+        "type": "string",
+        "value": "premium"
+      },
+      "sublabel": {
+        "type": "string",
+        "value": "subLabel"
+      }
+    },
+    "link": {
+      "Active": {
+        "type": "string",
+        "value": "linkActive"
+      },
+      "Hover": {
+        "type": "string",
+        "value": "linkHover"
+      },
+      "No-link": {
+        "type": "string",
+        "value": "linkNoLink"
+      },
+      "Normal": {
+        "type": "string",
+        "value": "linkNormal"
+      },
+      "Visited": {
+        "type": "string",
+        "value": "linkVisited"
+      }
+    },
+    "liveBlog": {
+      "Header-link": {
+        "type": "string",
+        "value": "paragraphLink"
+      },
+      "Header-text": {
+        "type": "string",
+        "value": "paragraph"
+      },
+      "button": {
+        "Read-full": {
+          "type": "string",
+          "value": "buttonReadFull"
+        },
+        "Read-newer": {
+          "type": "string",
+          "value": "buttonReadNewer"
+        },
+        "Read-older": {
+          "type": "string",
+          "value": "buttonReadOlder"
+        },
+        "Refresh": {
+          "type": "string",
+          "value": "buttonRefresh"
+        }
+      },
+      "heading": {
+        "Live-heading": {
+          "type": "string",
+          "value": "liveblogSubheading"
+        }
+      },
+      "highlights": {
+        "Highlight-title-link": {
+          "type": "string",
+          "value": "titleLinkHighlights"
+        },
+        "Highlights-heading": {
+          "type": "string",
+          "value": "subheadingHighlights"
+        },
+        "Highlights-time-1": {
+          "type": "string",
+          "value": "timeHighlights-1"
+        },
+        "Highlights-time-2": {
+          "type": "string",
+          "value": "timeHighlights-2"
+        },
+        "Highlights-time-3": {
+          "type": "string",
+          "value": "timeHighlights-3"
+        },
+        "Highlights-time-4": {
+          "type": "string",
+          "value": "timeHighlights-4"
+        }
+      },
+      "moment": {
+        "citedQuoteMoment": {
+          "type": "string",
+          "value": "citedQuoteMoment"
+        },
+        "headingMoment-1": {
+          "type": "string",
+          "value": "headingMoment-1"
+        },
+        "headingMoment-2": {
+          "type": "string",
+          "value": "headingMoment-2"
+        },
+        "organisationQuoteMoment": {
+          "type": "string",
+          "value": "organisationQuoteMoment"
+        },
+        "paragraphMoment-1": {
+          "type": "string",
+          "value": "paragraphMoment-1"
+        },
+        "paragraphMoment-2": {
+          "type": "string",
+          "value": "paragraphMoment-2"
+        },
+        "quoteMoment": {
+          "type": "string",
+          "value": "quoteMoment"
+        }
+      },
+      "newsItem": {
+        "Liveblog-heading": {
+          "type": "string",
+          "value": "liveblogHeading"
+        },
+        "Timestamp": {
+          "type": "string",
+          "value": "timestamp"
+        }
+      }
+    },
+    "liveblogSubheading": {
+      "type": "string",
+      "value": "liveblogSubheading"
+    },
+    "photo": {
+      "Photo-description": {
+        "type": "string",
+        "value": "photoDescription"
+      },
+      "Photo-source": {
+        "type": "string",
+        "value": "photoSource-1"
+      },
+      "Photo-source2": {
+        "type": "string",
+        "value": "photoSource-2"
+      }
+    },
+    "quote": {
+      "Name-of-cited": {
+        "type": "string",
+        "value": "nameOfCited"
+      },
+      "Organisation": {
+        "type": "string",
+        "value": "organisation"
+      },
+      "quoteWithQuotes": {
+        "type": "string",
+        "value": "quoteWithQuotes"
+      },
+      "quoteWithoutQuotes": {
+        "type": "string",
+        "value": "quoteWithoutQuotes"
+      }
+    },
+    "ratingBox": {
+      "Rating-box-heading": {
+        "type": "string",
+        "value": "ratingboxHeading"
+      },
+      "Rating-box-subheading": {
+        "type": "string",
+        "value": "reatingboxSubheading"
+      }
+    },
+    "recommendedTips": {
+      "heading": {
+        "type": "string",
+        "value": "headingRecommended"
+      },
+      "subheading": {
+        "type": "string",
+        "value": "subheadingRecommended"
+      },
+      "subheadingTeaser": {
+        "type": "string",
+        "value": "subheadingTeaserRecommendations"
+      }
+    },
+    "share": {
+      "Socialshare": {
+        "type": "string",
+        "value": "P/Socialshare-link"
+      }
+    }
+  },
+  "teaser": {
+    "alt1": {
+      "headlineExtralarge": {
+        "type": "string",
+        "value": "Headline/alt1/extralarge"
+      },
+      "headlineLarge": {
+        "type": "string",
+        "value": "Headline/alt1/large"
+      },
+      "headlineMedium": {
+        "type": "string",
+        "value": "Headline/alt1/medium"
+      },
+      "headlineSmall": {
+        "type": "string",
+        "value": "Headline/alt1/small"
+      }
+    },
+    "default": {
+      "headlineExtralarge": {
+        "type": "string",
+        "value": "Headline/default/extralarge"
+      },
+      "headlineLarge": {
+        "type": "string",
+        "value": "Headline/default/large"
+      },
+      "headlineMedium": {
+        "type": "string",
+        "value": "Headline/default/medium"
+      },
+      "headlineSmall": {
+        "type": "string",
+        "value": "Headline/default/small"
+      },
+      "intro": {
+        "type": "string",
+        "value": "Intro/default"
+      },
+      "photocredit": {
+        "type": "string",
+        "value": "Photocredit"
+      },
+      "photodesc": {
+        "type": "string",
+        "value": "Photodesc"
+      }
+    },
+    "footer": {
+      "action": {
+        "type": "string",
+        "value": "Action 1"
+      },
+      "info": {
+        "type": "string",
+        "value": "Information"
+      }
+    },
+    "live": {
+      "moment": {
+        "type": "string",
+        "value": "Moment"
+      },
+      "moreLink": {
+        "type": "string",
+        "value": "moreLink"
+      },
+      "timestamp": {
+        "type": "string",
+        "value": "timestamp"
+      }
+    }
+  }
+}
