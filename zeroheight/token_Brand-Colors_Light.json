@@ -11,11 +11,11 @@
       },
       "live": {
         "type": "color",
-        "value": "#ed1b2f"
+        "value": "#e71629"
       },
       "premium": {
         "type": "color",
-        "value": "#ed1b2f"
+        "value": "#e71629"
       },
       "premiumText": {
         "comment": "trouw",
@@ -590,7 +590,7 @@
     "solid": {
       "solid-1": {
         "type": "color",
-        "value": "#0097d8"
+        "value": "#047cbd"
       },
       "solid-2": {
         "type": "color",
