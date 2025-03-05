@@ -488,7 +488,7 @@
   "teaserList": {
     "gap": {
       "type": "number",
-      "value": 32
+      "value": 20
     },
     "imageWidth": {
       "type": "number",
