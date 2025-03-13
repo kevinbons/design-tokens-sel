@@ -1193,24 +1193,6 @@
         "type": "color",
         "value": "rgba(0, 0, 0, 0.0000)"
       },
-      "footer": {
-        "action": {
-          "iconColor": {
-            "type": "color",
-            "value": "{System.iconPrimaryInverted}"
-          }
-        },
-        "info": {
-          "iconColor": {
-            "type": "color",
-            "value": "rgba(255, 255, 255, 0.6000)"
-          },
-          "textColor": {
-            "type": "color",
-            "value": "rgba(255, 255, 255, 0.6000)"
-          }
-        }
-      },
       "headline": {
         "textColor": {
           "type": "color",
@@ -1227,108 +1209,6 @@
         "textColor": {
           "type": "color",
           "value": "rgba(255, 255, 255, 0.6000)"
-        }
-      }
-    },
-    "footer": {
-      "default": {
-        "action": {
-          "fontFamily": {
-            "type": "string",
-            "value": "BentonSans"
-          },
-          "fontSize": {
-            "type": "number",
-            "value": 12
-          },
-          "fontWeight": {
-            "type": "string",
-            "value": "bold"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "{System.iconPrimary}"
-          }
-        },
-        "button": {
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(0, 0, 0, 0.1000)"
-          },
-          "fontFamily": {
-            "type": "string",
-            "value": "BentonSans"
-          },
-          "fontSize": {
-            "type": "number",
-            "value": 12
-          },
-          "fontWeight": {
-            "type": "string",
-            "value": "book"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "{System.iconPrimary}"
-          },
-          "textColor": {
-            "type": "color",
-            "value": "{System.textPrimary}"
-          }
-        },
-        "info": {
-          "fontFamily": {
-            "type": "string",
-            "value": "BentonSans"
-          },
-          "fontSize": {
-            "type": "number",
-            "value": 12
-          },
-          "fontWeight": {
-            "type": "string",
-            "value": "book"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "{System.iconSecondary}"
-          },
-          "textColor": {
-            "type": "color",
-            "value": "{System.textSecondary}"
-          }
-        }
-      },
-      "inverted": {
-        "action": {
-          "iconColor": {
-            "type": "color",
-            "value": "{System.iconPrimaryInverted}"
-          }
-        },
-        "button": {
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(255, 255, 255, 0.3000)"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "{System.iconPrimaryInverted}"
-          },
-          "textColor": {
-            "type": "color",
-            "value": "{System.textPrimaryInverted}"
-          }
-        },
-        "info": {
-          "iconColor": {
-            "type": "color",
-            "value": "{System.iconSecondaryInverted}"
-          },
-          "textColor": {
-            "type": "color",
-            "value": "{System.textSecondaryInverted}"
-          }
         }
       }
     },
@@ -1433,6 +1313,56 @@
         "textColor": {
           "type": "color",
           "value": "{System.textPrimaryInverted}"
+        }
+      }
+    }
+  },
+  "teaserFooter": {
+    "default": {
+      "action": {
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimary}"
+        }
+      },
+      "info": {
+        "fontFamily": {
+          "type": "string",
+          "value": "BentonSans"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 12
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "book"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconSecondary}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textSecondary}"
+        }
+      }
+    },
+    "inverted": {
+      "action": {
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimaryInverted}"
+        }
+      },
+      "info": {
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconSecondaryInverted}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textSecondaryInverted}"
         }
       }
     }
