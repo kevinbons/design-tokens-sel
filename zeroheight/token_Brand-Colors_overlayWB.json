@@ -89,12 +89,12 @@
       },
       "premium": {
         "type": "color",
-        "value": "#000000"
+        "value": "#ffffff"
       },
       "premiumText": {
         "comment": "trouw",
         "type": "color",
-        "value": "#ffffff"
+        "value": "#000000"
       }
     },
     "solid": {
