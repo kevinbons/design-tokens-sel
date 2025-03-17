@@ -1029,6 +1029,96 @@
       }
     }
   },
+  "swimlaneArrows": {
+    "default": {
+      "active": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      },
+      "default": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      },
+      "hover": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      }
+    },
+    "inverted": {
+      "active": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "{TR.surface.surface-4}"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.3000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      },
+      "default": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "{TR.surface.surface-5}"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.3000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      },
+      "hover": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "{TR.surface.surface-4}"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.3000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    }
+  },
   "teaser": {
     "alt1": {
       "headline": {
@@ -1373,50 +1463,6 @@
       "value": "{TR.theme1.backgroundColor}"
     },
     "swimlane": {
-      "arrows": {
-        "active": {
-          "backgroundColor": {
-            "type": "color",
-            "value": "#ffffff"
-          },
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(0, 0, 0, 0.1000)"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "#000000"
-          }
-        },
-        "default": {
-          "backgroundColor": {
-            "type": "color",
-            "value": "#ffffff"
-          },
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(0, 0, 0, 0.1000)"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "#000000"
-          }
-        },
-        "hover": {
-          "backgroundColor": {
-            "type": "color",
-            "value": "#ffffff"
-          },
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(0, 0, 0, 0.1000)"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "#000000"
-          }
-        }
-      },
       "backgroundColor": {
         "type": "color",
         "value": "#f2f2f2"
@@ -1463,50 +1509,6 @@
       "value": "{TR.theme2.backgroundColor}"
     },
     "swimlane": {
-      "arrows": {
-        "active": {
-          "backgroundColor": {
-            "type": "color",
-            "value": "#ffffff"
-          },
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(0, 0, 0, 0.1000)"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "#000000"
-          }
-        },
-        "default": {
-          "backgroundColor": {
-            "type": "color",
-            "value": "#ffffff"
-          },
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(0, 0, 0, 0.1000)"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "#000000"
-          }
-        },
-        "hover": {
-          "backgroundColor": {
-            "type": "color",
-            "value": "#ffffff"
-          },
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(0, 0, 0, 0.1000)"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "#000000"
-          }
-        }
-      },
       "backgroundColor": {
         "type": "color",
         "value": "{TR.theme2.swimlane.backgroundColor}"
@@ -1553,50 +1555,6 @@
       "value": "{TR.theme3.backgroundColor}"
     },
     "swimlane": {
-      "arrows": {
-        "active": {
-          "backgroundColor": {
-            "type": "color",
-            "value": "{TR.surface.surface-4}"
-          },
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(255, 255, 255, 0.3000)"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "#ffffff"
-          }
-        },
-        "default": {
-          "backgroundColor": {
-            "type": "color",
-            "value": "{TR.surface.surface-5}"
-          },
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(255, 255, 255, 0.3000)"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "#ffffff"
-          }
-        },
-        "hover": {
-          "backgroundColor": {
-            "type": "color",
-            "value": "{TR.surface.surface-4}"
-          },
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(255, 255, 255, 0.3000)"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "#ffffff"
-          }
-        }
-      },
       "backgroundColor": {
         "type": "color",
         "value": "{TR.theme3.swimlane.backgroundColor}"
@@ -1643,50 +1601,6 @@
       "value": "{TR.theme4.backgroundColor}"
     },
     "swimlane": {
-      "arrows": {
-        "active": {
-          "backgroundColor": {
-            "type": "color",
-            "value": "{TR.surface.surface-4}"
-          },
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(255, 255, 255, 0.3000)"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "#ffffff"
-          }
-        },
-        "default": {
-          "backgroundColor": {
-            "type": "color",
-            "value": "{TR.surface.surface-5}"
-          },
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(255, 255, 255, 0.3000)"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "#ffffff"
-          }
-        },
-        "hover": {
-          "backgroundColor": {
-            "type": "color",
-            "value": "{TR.surface.surface-4}"
-          },
-          "borderColor": {
-            "type": "color",
-            "value": "rgba(255, 255, 255, 0.3000)"
-          },
-          "iconColor": {
-            "type": "color",
-            "value": "#ffffff"
-          }
-        }
-      },
       "backgroundColor": {
         "type": "color",
         "value": "{TR.theme4.swimlane.backgroundColor}"
