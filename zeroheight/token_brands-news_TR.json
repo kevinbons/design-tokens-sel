@@ -999,6 +999,28 @@
       }
     }
   },
+  "pagination": {
+    "default": {
+      "fontFamily": {
+        "type": "string",
+        "value": "BentonSans"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "book"
+      }
+    },
+    "emphasized": {
+      "fontFamily": {
+        "type": "string",
+        "value": "BentonSans"
+      },
+      "textWeight": {
+        "type": "string",
+        "value": "bold"
+      }
+    }
+  },
   "swimlane": {
     "teaser": {
       "headline": {
