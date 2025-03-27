@@ -789,6 +789,408 @@
         "type": "number",
         "value": "{fsize.fontsize-075}"
       },
+      "uam": {
+        "logoColor": {
+          "type": "color",
+          "value": "{System.alwaysBlack}"
+        }
+      }
+    }
+  },
+  "pagination": {
+    "default": {
+      "fontFamily": {
+        "type": "string",
+        "value": "BentonSans"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "book"
+      }
+    },
+    "emphasized": {
+      "fontFamily": {
+        "type": "string",
+        "value": "BentonSans"
+      },
+      "textWeight": {
+        "type": "string",
+        "value": "bold"
+      }
+    }
+  },
+  "swimlane": {
+    "teaser": {
+      "headline": {
+        "altStyle": {
+          "type": "boolean",
+          "value": false
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "CapitoliumHead"
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "bold"
+        },
+        "fontsizeLarge": {
+          "type": "number",
+          "value": 29
+        },
+        "fontsizeMedium": {
+          "type": "number",
+          "value": 22
+        },
+        "fontsizeSmall": {
+          "type": "number",
+          "value": 16
+        }
+      }
+    }
+  },
+  "swimlaneArrows": {
+    "default": {
+      "active": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      },
+      "default": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      },
+      "hover": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      }
+    },
+    "inverted": {
+      "active": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#3a3a3a"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      },
+      "default": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#212121"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "#545454"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      },
+      "hover": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#3a3a3a"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    }
+  },
+  "teaser": {
+    "alt1": {
+      "headline": {
+        "fontFamily": {
+          "type": "string",
+          "value": "CapitoliumHead"
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "light"
+        },
+        "fontsizeExtraLarge": {
+          "type": "number",
+          "value": 36
+        },
+        "fontsizeLarge": {
+          "type": "number",
+          "value": 26
+        },
+        "fontsizeMedium": {
+          "type": "number",
+          "value": 22
+        },
+        "fontsizeSmall": {
+          "type": "number",
+          "value": 16
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      }
+    },
+    "alt1-inverted": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "borderColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.6000)"
+      },
+      "headline": {
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
+      },
+      "iconQuote": {
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimaryInverted}"
+        }
+      },
+      "intro": {
+        "textColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.9000)"
+        }
+      }
+    },
+    "default": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "borderColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "headline": {
+        "fontFamily": {
+          "type": "string",
+          "value": "CapitoliumHead"
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "bold"
+        },
+        "fontsizeExtralarge": {
+          "type": "number",
+          "value": 36
+        },
+        "fontsizeLarge": {
+          "type": "number",
+          "value": 26
+        },
+        "fontsizeMedium": {
+          "type": "number",
+          "value": 22
+        },
+        "fontsizeSmall": {
+          "type": "number",
+          "value": 16
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      },
+      "intro": {
+        "fontFamily": {
+          "type": "string",
+          "value": "CapitoliumNews"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 16
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "regular"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textSecondary}"
+        }
+      },
+      "photocredit": {
+        "fontFamily": {
+          "type": "string",
+          "value": "BentonSans"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 12
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "book"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textSecondary}"
+        }
+      },
+      "photodesc": {
+        "fontFamily": {
+          "type": "string",
+          "value": "BentonSans"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 14
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "book"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      }
+    },
+    "default-inverted": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#1d1d1d"
+      },
+      "borderColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "headline": {
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
+      },
+      "iconQuote": {
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimaryInverted}"
+        }
+      },
+      "intro": {
+        "textColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.6000)"
+        }
+      }
+    },
+    "live": {
+      "moment": {
+        "fontFamily": {
+          "type": "string",
+          "value": "BentonSans"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 14
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "book"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      },
+      "morelink": {
+        "fontFamily": {
+          "type": "string",
+          "value": "BentonSans"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 14
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "bold"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      },
+      "timeline": {
+        "iconEndColor": {
+          "type": "color",
+          "value": "{System.iconPrimary}"
+        },
+        "iconStartColor": {
+          "type": "color",
+          "value": "{System.iconPrimary}"
+        },
+        "timelineColor": {
+          "type": "color",
+          "value": "{System.iconPrimary}"
+        }
+      },
+      "timestamp": {
+        "fontFamily": {
+          "type": "string",
+          "value": "BentonSans"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 12
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "book"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textSecondary}"
+        }
+=======
       "fontScale-xxl": {
         "type": "number",
         "value": "{fsize.fontsize-150}"

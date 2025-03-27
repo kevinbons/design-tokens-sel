@@ -1,4 +1,514 @@
 {
+  "button": {
+    "paddingV": {
+      "type": "number",
+      "value": 4
+    },
+    "primary": {
+      "disabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0500)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.3000)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.3000)"
+        }
+      },
+      "enabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "{HU.solid.solid-1}"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        }
+      },
+      "focussed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#f8494d"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        }
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Haas Grotesk Text Bold"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "regular"
+      },
+      "loading": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "{HU.solid.solid-1}"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconSecondaryInverted}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textSecondaryInverted}"
+        }
+      },
+      "pressed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#a81633"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        }
+      }
+    },
+    "secondary": {
+      "disabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0500)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.3000)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.3000)"
+        }
+      },
+      "enabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      },
+      "focussed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#545454"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Haas Grotesk Text Bold"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "regular"
+      },
+      "loading": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.6000)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.6000)"
+        }
+      },
+      "pressed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    },
+    "size": {
+      "extralarge": {
+        "contentPadding": {
+          "type": "number",
+          "value": 5
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 16
+        },
+        "gap": {
+          "type": "number",
+          "value": 5
+        },
+        "padding": {
+          "type": "number",
+          "value": 20
+        },
+        "radius": {
+          "type": "number",
+          "value": 24
+        }
+      },
+      "large": {
+        "contentPadding": {
+          "type": "number",
+          "value": 4
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 14
+        },
+        "gap": {
+          "type": "number",
+          "value": 4
+        },
+        "padding": {
+          "type": "number",
+          "value": 16
+        },
+        "radius": {
+          "type": "number",
+          "value": 20
+        }
+      },
+      "medium": {
+        "contentPadding": {
+          "type": "number",
+          "value": 3
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 12
+        },
+        "gap": {
+          "type": "number",
+          "value": 3
+        },
+        "padding": {
+          "type": "number",
+          "value": 12
+        },
+        "radius": {
+          "type": "number",
+          "value": 16
+        }
+      },
+      "small": {
+        "fontSize": {
+          "type": "number",
+          "value": 12
+        },
+        "gap": {
+          "type": "number",
+          "value": 2
+        },
+        "padding": {
+          "type": "number",
+          "value": 8
+        },
+        "paddingContent": {
+          "type": "number",
+          "value": 2
+        },
+        "radius": {
+          "type": "number",
+          "value": 12
+        }
+      }
+    },
+    "tertiary": {
+      "disabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.3000)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.3000)"
+        }
+      },
+      "enabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      },
+      "focussed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Haas Grotesk Text Roman"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "regular"
+      },
+      "loading": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1700)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.5500)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.5500)"
+        }
+      },
+      "pressed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      }
+    },
+    "tertiary-inverted": {
+      "disabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.1500)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.4000)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.4000)"
+        }
+      },
+      "enabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.1500)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimaryInverted}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
+      },
+      "focussed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimaryInverted}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Haas Grotesk Text Roman"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "regular"
+      },
+      "loading": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.3000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.5000)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.5000)"
+        }
+      },
+      "pressed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.1500)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimaryInverted}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
+      }
+    }
+  },
+  "label": {
+    "iconColor": {
+      "type": "color",
+      "value": "{System.iconPrimary}"
+    },
+    "live": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "borderColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
   "body": {
     "primary": {
       "fontFamily": {
@@ -994,6 +1504,28 @@
       "uppercase": {
         "type": "boolean",
         "value": true
+      }
+    }
+  },
+  "pagination": {
+    "default": {
+      "fontFamily": {
+        "type": "string",
+        "value": "Haas Grotesk Text Roman"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "regular"
+      }
+    },
+    "emphasized": {
+      "fontFamily": {
+        "type": "string",
+        "value": "Haas Grotesk Text Bold"
+      },
+      "textWeight": {
+        "type": "string",
+        "value": "regular"
       }
     }
   }
