@@ -187,15 +187,15 @@
       },
       "400": {
         "type": "color",
-        "value": "#00668f"
+        "value": "#047cbd"
       },
       "500": {
         "type": "color",
-        "value": "#0074a3"
+        "value": "#1a99d7"
       },
       "600": {
         "type": "color",
-        "value": "#047cbd"
+        "value": "#1693d2"
       },
       "700": {
         "type": "color",
