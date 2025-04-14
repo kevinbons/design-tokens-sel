@@ -1,733 +1,1045 @@
 {
-  "body": {
-    "primary": {
-      "fontFamily": {
-        "type": "string",
-        "value": "{HP.fontFamilySerif2}"
+  "blockHeaderTitle": {
+    "default": {
+      "divider": {
+        "soft": {
+          "dividerColor": {
+            "type": "color",
+            "value": "{divider.default.color}"
+          },
+          "dividerHeight": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "strong": {
+          "dividerColor": {
+            "type": "color",
+            "value": "{System.iconPrimary}"
+          },
+          "dividerHeight": {
+            "type": "number",
+            "value": 8
+          }
+        }
       },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-250}"
-      },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-200}"
-      },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-100}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-300}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-100}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-400}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-090}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-085}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-075}"
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "{fweight.weight-400}"
-      },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
+      "title": {
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
       }
     },
-    "quaternary": {
+    "fontFamily": {
+      "type": "string",
+      "value": "CapitoliumHead"
+    },
+    "fontSize": {
+      "type": "number",
+      "value": 16
+    },
+    "fontWeight": {
+      "type": "string",
+      "value": "bold"
+    },
+    "inverted": {
+      "divider": {
+        "soft": {
+          "dividerColor": {
+            "type": "color",
+            "value": "{divider.inverted.color}"
+          }
+        },
+        "strong": {
+          "dividerColor": {
+            "type": "color",
+            "value": "{System.iconPrimaryInverted}"
+          }
+        }
+      },
+      "title": {
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
+      }
+    },
+    "textString": {
+      "type": "string",
+      "value": "blockHeaderTitle"
+    }
+  },
+  "blocks": {
+    "backgroundColor": {
+      "type": "color",
+      "value": "#ffffff"
+    },
+    "blockHeader": {
+      "teaser": {
+        "headline": {
+          "altStyle": {
+            "type": "boolean",
+            "value": false
+          }
+        }
+      }
+    },
+    "blockHeaderTitle": {
+      "divider": {
+        "dividerColor": {
+          "type": "color",
+          "value": "{System.iconPrimary}"
+        }
+      },
+      "textColor": {
+        "type": "color",
+        "value": "{System.textPrimary}"
+      }
+    },
+    "blockHighlight": {
+      "teaser": {
+        "headline": {
+          "altStyle": {
+            "type": "boolean",
+            "value": false
+          }
+        }
+      }
+    },
+    "blockOpinion": {
+      "teaser": {
+        "headline": {
+          "altStyle": {
+            "type": "boolean",
+            "value": false
+          }
+        }
+      }
+    },
+    "blockSwimLane": {
+      "teaser": {
+        "headline": {
+          "altStyle": {
+            "type": "boolean",
+            "value": false
+          }
+        }
+      }
+    }
+  },
+  "button": {
+    "paddingV": {
+      "type": "number",
+      "value": 4
+    },
+    "primary": {
+      "disabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.3500)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.3500)"
+        }
+      },
+      "enabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "{HP.solid.solid-1}"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        }
+      },
+      "focussed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#f64655"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        }
+      },
       "fontFamily": {
         "type": "string",
-        "value": "{HP.fontFamilySans1}"
-      },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-250}"
-      },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-200}"
-      },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-150}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-300}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-100}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-400}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-090}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-085}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-500}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-080}"
+        "value": "BentonSans"
       },
       "fontWeight": {
         "type": "string",
-        "value": "{fweight.weight-700}"
+        "value": "book"
       },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
+      "loading": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "{HP.solid.solid-1}"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconSecondaryInverted}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textSecondaryInverted}"
+        }
+      },
+      "pressed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#921d2e"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        }
       }
     },
     "secondary": {
+      "disabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.3500)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.3500)"
+        }
+      },
+      "enabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      },
+      "focussed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#545454"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      },
       "fontFamily": {
         "type": "string",
-        "value": "{HP.fontFamilySerif2}"
-      },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-250}"
-      },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-200}"
-      },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-150}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-300}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-100}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-400}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-090}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-425}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-085}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-075}"
+        "value": "BentonSans"
       },
       "fontWeight": {
         "type": "string",
-        "value": "{fweight.weight-625}"
+        "value": "book"
       },
-      "uppercase": {
+      "loading": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.1100)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.1100)"
+        }
+      },
+      "pressed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "#ffffff"
+        }
+      }
+    },
+    "size": {
+      "extralarge": {
+        "contentPadding": {
+          "type": "number",
+          "value": 5
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 16
+        },
+        "gap": {
+          "type": "number",
+          "value": 5
+        },
+        "padding": {
+          "type": "number",
+          "value": 20
+        },
+        "radius": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "large": {
+        "contentPadding": {
+          "type": "number",
+          "value": 4
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 14
+        },
+        "gap": {
+          "type": "number",
+          "value": 4
+        },
+        "padding": {
+          "type": "number",
+          "value": 16
+        },
+        "radius": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "medium": {
+        "contentPadding": {
+          "type": "number",
+          "value": 3
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 12
+        },
+        "gap": {
+          "type": "number",
+          "value": 3
+        },
+        "padding": {
+          "type": "number",
+          "value": 12
+        },
+        "radius": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "small": {
+        "fontSize": {
+          "type": "number",
+          "value": 12
+        },
+        "gap": {
+          "type": "number",
+          "value": 3
+        },
+        "padding": {
+          "type": "number",
+          "value": 8
+        },
+        "paddingContent": {
+          "type": "number",
+          "value": 3
+        },
+        "radius": {
+          "type": "number",
+          "value": 0
+        }
+      }
+    },
+    "tertiary": {
+      "disabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.6700)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.3500)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.3500)"
+        }
+      },
+      "enabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.6700)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      },
+      "focussed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "BentonSans"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "bold"
+      },
+      "loading": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.5500)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1100)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1100)"
+        }
+      },
+      "pressed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.6700)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      }
+    },
+    "tertiary-inverted": {
+      "disabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.0500)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.0900)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.0900)"
+        }
+      },
+      "enabled": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.0500)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimaryInverted}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
+      },
+      "focussed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimaryInverted}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "BentonSans"
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "bold"
+      },
+      "loading": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.0700)"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.1100)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.1100)"
+        }
+      },
+      "pressed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.0500)"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "{System.alwaysWhite}"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimaryInverted}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
+      }
+    }
+  },
+  "divider": {
+    "default": {
+      "color": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.1100)"
+      }
+    },
+    "inverted": {
+      "color": {
+        "type": "color",
+        "value": "rgba(255, 255, 255, 0.1100)"
+      }
+    }
+  },
+  "label": {
+    "iconColor": {
+      "type": "color",
+      "value": "{System.iconPrimary}"
+    },
+    "live": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "borderColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "BentonSans"
+      },
+      "fontSize": {
+        "type": "number",
+        "value": 14
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "book"
+      },
+      "gapH": {
+        "type": "number",
+        "value": 4
+      },
+      "iconColor": {
+        "type": "color",
+        "value": "{HP.brand.live}"
+      },
+      "iconShown": {
+        "type": "boolean",
+        "value": true
+      },
+      "spacingH": {
+        "type": "number",
+        "value": "{spacing-none}"
+      },
+      "spacingV": {
+        "type": "number",
+        "value": "{spacing-none}"
+      },
+      "textColor": {
+        "type": "color",
+        "value": "{HP.brand.live}"
+      },
+      "textShown": {
+        "type": "boolean",
+        "value": true
+      },
+      "textString": {
+        "type": "string",
+        "value": "Live"
+      },
+      "upperCase": {
         "type": "boolean",
         "value": false
       }
     },
-    "tertiary": {
+    "main": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "borderColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
       "fontFamily": {
         "type": "string",
-        "value": "{HP.fontFamilySans1}"
+        "value": "BentonSans"
       },
-      "fontScale-l": {
+      "fontSize": {
         "type": "number",
-        "value": "{fsize.fontsize-250}"
-      },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-200}"
-      },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-150}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-300}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-100}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-400}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-090}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-085}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-500}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-080}"
+        "value": 14
       },
       "fontWeight": {
         "type": "string",
-        "value": "{fweight.weight-350}"
+        "value": "bold"
       },
-      "uppercase": {
+      "gapH": {
+        "type": "number",
+        "value": "{spacing-none}"
+      },
+      "iconColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "iconShown": {
+        "type": "boolean",
+        "value": false
+      },
+      "spacingH": {
+        "type": "number",
+        "value": "{spacing-none}"
+      },
+      "spacingV": {
+        "type": "number",
+        "value": "{spacing-none}"
+      },
+      "textColor": {
+        "type": "color",
+        "value": "{System.textPrimary}"
+      },
+      "textShown": {
+        "type": "boolean",
+        "value": true
+      },
+      "textString": {
+        "type": "string",
+        "value": "Main"
+      },
+      "upperCase": {
+        "type": "boolean",
+        "value": false
+      }
+    },
+    "premium": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "{HP.brand.premium}"
+      },
+      "backgroundColor 2": {
+        "type": "color",
+        "value": "{HP.brand.premium}"
+      },
+      "backgroundColor 3": {
+        "type": "color",
+        "value": "{HP.brand.premium}"
+      },
+      "backgroundMinH": {
+        "type": "number",
+        "value": 18
+      },
+      "borderColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "borderColor 2": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "borderColor 3": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "BentonSans"
+      },
+      "fontSize": {
+        "type": "number",
+        "value": 10
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "book"
+      },
+      "gapH": {
+        "type": "number",
+        "value": 4
+      },
+      "hasPremium": {
+        "type": "boolean",
+        "value": false
+      },
+      "iconColor": {
+        "type": "color",
+        "value": "{System.iconPrimaryInverted}"
+      },
+      "iconColor 2": {
+        "type": "color",
+        "value": "{System.iconPrimaryInverted}"
+      },
+      "iconMinH": {
+        "type": "number",
+        "value": 0
+      },
+      "iconShown": {
+        "type": "boolean",
+        "value": false
+      },
+      "spacingH": {
+        "type": "number",
+        "value": 4
+      },
+      "spacingV": {
+        "type": "number",
+        "value": 4
+      },
+      "textColor": {
+        "type": "color",
+        "value": "{HP.brand.premiumText}"
+      },
+      "textColor 2": {
+        "type": "color",
+        "value": "{HP.brand.premiumText}"
+      },
+      "textColor 3": {
+        "type": "color",
+        "value": "{HP.brand.premiumText}"
+      },
+      "textShown": {
+        "type": "boolean",
+        "value": true
+      },
+      "textString": {
+        "type": "string",
+        "value": "Plus"
+      },
+      "upperCase": {
+        "type": "boolean",
+        "value": false
+      }
+    },
+    "sub": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "borderColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "BentonSans"
+      },
+      "fontSize": {
+        "type": "number",
+        "value": 14
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "book"
+      },
+      "gapH": {
+        "type": "number",
+        "value": "{spacing-none}"
+      },
+      "iconColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "iconShown": {
+        "type": "boolean",
+        "value": false
+      },
+      "spacingH": {
+        "type": "number",
+        "value": "{spacing-none}"
+      },
+      "spacingV": {
+        "type": "number",
+        "value": "{spacing-none}"
+      },
+      "textColor": {
+        "type": "color",
+        "value": "{System.textPrimary}"
+      },
+      "textShown": {
+        "type": "boolean",
+        "value": true
+      },
+      "textString": {
+        "type": "string",
+        "value": "Sub"
+      },
+      "upperCase": {
+        "type": "boolean",
+        "value": false
+      }
+    },
+    "textColor": {
+      "type": "color",
+      "value": "{System.textPrimary}"
+    },
+    "uam": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "backgroundMinH": {
+        "type": "number",
+        "value": 18
+      },
+      "borderColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "fontFamily": {
+        "type": "string",
+        "value": "Swiss 721"
+      },
+      "fontSize": {
+        "type": "number",
+        "value": 16
+      },
+      "fontWeight": {
+        "type": "string",
+        "value": "light condensed"
+      },
+      "gapH": {
+        "type": "number",
+        "value": "{spacing-none}"
+      },
+      "iconColor": {
+        "type": "color",
+        "value": "{System.iconPrimary}"
+      },
+      "iconMinH": {
+        "type": "number",
+        "value": 0
+      },
+      "iconShown": {
+        "type": "boolean",
+        "value": false
+      },
+      "spacingH": {
+        "type": "number",
+        "value": "{spacing-none}"
+      },
+      "spacingV": {
+        "type": "number",
+        "value": "{spacing-none}"
+      },
+      "textColor": {
+        "type": "color",
+        "value": "{System.textPrimary}"
+      },
+      "textShown": {
+        "type": "boolean",
+        "value": false
+      },
+      "textString": {
+        "type": "string",
+        "value": "UAM-logo"
+      },
+      "upperCase": {
         "type": "boolean",
         "value": false
       }
     }
   },
-  "brand": {
-    "type": "string",
-    "value": "HP"
-  },
-  "display": {
-    "primary": {
-      "fontFamily": {
-        "type": "string",
-        "value": "{HP.fontFamilySerif1}"
+  "label-container": {
+    "boxed": {
+      "borderColor": {
+        "type": "color",
+        "value": "#000000"
       },
-      "fontScale-l": {
+      "gapV": {
         "type": "number",
-        "value": "{fsize.fontsize-1000}"
+        "value": 4
       },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-875}"
+      "premium": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "{HP.brand.premium}"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{HP.brand.premiumText}"
+        }
       },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-800}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1100}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-700}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1200}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-600}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1225}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-500}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1235}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "{fweight.weight-900}"
-      },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
+      "uam": {
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        }
       }
     },
-    "quaternary": {
-      "fontFamily": {
-        "type": "string",
-        "value": "{HP.fontFamilySans1}"
+    "default": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
       },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-900}"
-      },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-800}"
-      },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-700}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1000}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-600}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1050}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-500}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1100}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1200}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-400}"
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "{fweight.weight-400}"
-      },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
-      }
-    },
-    "secondary": {
-      "fontFamily": {
-        "type": "string",
-        "value": "{HP.fontFamilySerif1}"
-      },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-1000}"
-      },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-875}"
-      },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-775}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1100}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-700}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1100}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-600}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1200}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-500}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1225}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "{fweight.weight-300}"
-      },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
-      }
-    },
-    "tertiary": {
-      "fontFamily": {
-        "type": "string",
-        "value": "{HP.fontFamilySans1}"
-      },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-900}"
-      },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-800}"
-      },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-700}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1000}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-600}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1050}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-500}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1100}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-1200}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-400}"
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "{fweight.weight-600}"
-      },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
-      }
-    }
-  },
-  "headline": {
-    "primary": {
-      "fontFamily": {
-        "type": "string",
-        "value": "{HP.fontFamilySerif1}"
-      },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-500}"
-      },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
-      },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-400}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-600}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-400}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-700}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-300}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-800}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-250}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-875}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-200}"
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "{fweight.weight-900}"
-      },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
-      }
-    },
-    "quaternary": {
-      "fontFamily": {
-        "type": "string",
-        "value": "{HP.fontFamilySerif2}"
-      },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
-      },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-400}"
-      },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-300}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-500}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-250}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-600}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-200}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-700}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-150}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-800}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-100}"
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "{fweight.weight-400}"
-      },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
-      }
-    },
-    "quinary": {
-      "fontFamily": {
-        "type": "string",
-        "value": "{HP.fontFamilySans1}"
-      },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
-      },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-400}"
-      },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-300}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-500}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-250}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-600}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-200}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-700}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-150}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-800}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-100}"
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "{fweight.weight-900}"
-      },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
-      }
-    },
-    "secondary": {
-      "fontFamily": {
-        "type": "string",
-        "value": "{HP.fontFamilySerif1}"
-      },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-500}"
-      },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
-      },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-425}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-600}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-400}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-700}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-300}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-800}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-250}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-875}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-200}"
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "{fweight.weight-300}"
-      },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
-      }
-    },
-    "tertiary": {
-      "fontFamily": {
-        "type": "string",
-        "value": "{HP.fontFamilySerif2}"
-      },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-450}"
+      "borderColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
       },
-      "fontScale-m": {
+      "gapH": {
         "type": "number",
-        "value": "{fsize.fontsize-400}"
+        "value": 6
       },
-      "fontScale-s": {
+      "gapV": {
         "type": "number",
-        "value": "{fsize.fontsize-300}"
+        "value": 6
       },
-      "fontScale-xl": {
+      "spacingH": {
         "type": "number",
-        "value": "{fsize.fontsize-500}"
+        "value": "{spacing-none}"
       },
-      "fontScale-xs": {
+      "spacingV": {
         "type": "number",
-        "value": "{fsize.fontsize-250}"
+        "value": "{spacing-none}"
       },
       "uam": {
         "logoColor": {
@@ -791,20 +1103,6 @@
   },
   "swimlaneArrows": {
     "default": {
-      "active": {
-        "backgroundColor": {
-          "type": "color",
-          "value": "#ffffff"
-        },
-        "borderColor": {
-          "type": "color",
-          "value": "#000000"
-        },
-        "iconColor": {
-          "type": "color",
-          "value": "#000000"
-        }
-      },
       "default": {
         "backgroundColor": {
           "type": "color",
@@ -812,17 +1110,31 @@
         },
         "borderColor": {
           "type": "color",
-          "value": "rgba(0, 0, 0, 0.1000)"
+          "value": "rgba(0, 0, 0, 0.6700)"
         },
         "iconColor": {
           "type": "color",
           "value": "#000000"
         }
       },
-      "hover": {
+      "focussed": {
         "backgroundColor": {
           "type": "color",
           "value": "#ffffff"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "#000000"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#000000"
+        }
+      },
+      "pressed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#eaeaea"
         },
         "borderColor": {
           "type": "color",
@@ -835,20 +1147,6 @@
       }
     },
     "inverted": {
-      "active": {
-        "backgroundColor": {
-          "type": "color",
-          "value": "#3a3a3a"
-        },
-        "borderColor": {
-          "type": "color",
-          "value": "rgba(0, 0, 0, 0.1000)"
-        },
-        "iconColor": {
-          "type": "color",
-          "value": "#ffffff"
-        }
-      },
       "default": {
         "backgroundColor": {
           "type": "color",
@@ -863,284 +1161,507 @@
           "value": "#ffffff"
         }
       },
-      "hover": {
+      "focussed": {
         "backgroundColor": {
           "type": "color",
           "value": "#3a3a3a"
         },
         "borderColor": {
           "type": "color",
-          "value": "rgba(0, 0, 0, 0.1000)"
+          "value": "#ffffff"
         },
         "iconColor": {
           "type": "color",
           "value": "#ffffff"
         }
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-600}"
       },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-200}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-700}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-150}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-800}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-100}"
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "{fweight.weight-625}"
-      },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
+      "pressed": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#3a3a3a"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "#ffffff"
+        }
       }
     }
   },
-  "label": {
-    "primary": {
-      "fontFamily": {
-        "type": "string",
-        "value": "{HP.fontFamilySans1}"
-      },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-090}"
-      },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-085}"
-      },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-080}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-100}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-075}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-150}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-070}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-200}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-060}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-250}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-050}"
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "{fweight.weight-350}"
-      },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
+  "teaser": {
+    "alt1": {
+      "headline": {
+        "fontFamily": {
+          "type": "string",
+          "value": "CapitoliumHead"
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "light"
+        },
+        "fontsizeExtraLarge": {
+          "type": "number",
+          "value": 36
+        },
+        "fontsizeLarge": {
+          "type": "number",
+          "value": 29
+        },
+        "fontsizeMedium": {
+          "type": "number",
+          "value": 22
+        },
+        "fontsizeSmall": {
+          "type": "number",
+          "value": 16
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
       }
     },
-    "quaternary": {
-      "fontFamily": {
-        "type": "string",
-        "value": "{HP.fontFamilySans1}"
+    "alt1-inverted": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#ffffff"
       },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-090}"
+      "borderColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.1100)"
       },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-085}"
+      "headline": {
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
       },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-080}"
+      "iconQuote": {
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimaryInverted}"
+        }
       },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-100}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-075}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-150}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-070}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-200}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-060}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-250}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-050}"
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "{fweight.weight-300}"
-      },
-      "uppercase": {
-        "type": "boolean",
-        "value": true
+      "intro": {
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
       }
     },
-    "secondary": {
-      "fontFamily": {
-        "type": "string",
-        "value": "{HP.fontFamilySans1}"
+    "default": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#ffffff"
       },
-      "fontScale-l": {
-        "type": "number",
-        "value": "{fsize.fontsize-090}"
+      "borderColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
       },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-085}"
+      "headline": {
+        "fontFamily": {
+          "type": "string",
+          "value": "CapitoliumHead"
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "bold"
+        },
+        "fontsizeExtralarge": {
+          "type": "number",
+          "value": 36
+        },
+        "fontsizeLarge": {
+          "type": "number",
+          "value": 26
+        },
+        "fontsizeMedium": {
+          "type": "number",
+          "value": 22
+        },
+        "fontsizeSmall": {
+          "type": "number",
+          "value": 16
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
       },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-080}"
+      "intro": {
+        "fontFamily": {
+          "type": "string",
+          "value": "CapitoliumNews"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 16
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "regular"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
       },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-100}"
+      "photocredit": {
+        "fontFamily": {
+          "type": "string",
+          "value": "BentonSans"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 13
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "book"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textSecondary}"
+        }
       },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-075}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-150}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-070}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-200}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-060}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-250}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-050}"
-      },
-      "fontWeight": {
-        "type": "string",
-        "value": "{fweight.weight-700}"
-      },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
+      "photodesc": {
+        "fontFamily": {
+          "type": "string",
+          "value": "BentonSans"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 14
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "book"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
       }
     },
-    "tertiary": {
+    "default-inverted": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#1d1d1d"
+      },
+      "borderColor": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
+      },
+      "headline": {
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
+      },
+      "iconQuote": {
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimaryInverted}"
+        }
+      },
+      "intro": {
+        "textColor": {
+          "type": "color",
+          "value": "{System.textSecondaryInverted}"
+        }
+      }
+    },
+    "live": {
+      "moment": {
+        "fontFamily": {
+          "type": "string",
+          "value": "BentonSans"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 14
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "bold"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      },
+      "morelink": {
+        "fontFamily": {
+          "type": "string",
+          "value": "BentonSans"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 14
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "book"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      },
+      "timeline": {
+        "iconEndColor": {
+          "type": "color",
+          "value": "{System.iconPrimary}"
+        },
+        "iconStartColor": {
+          "type": "color",
+          "value": "{System.iconPrimary}"
+        },
+        "timelineColor": {
+          "type": "color",
+          "value": "{System.iconPrimary}"
+        }
+      },
+      "timestamp": {
+        "fontFamily": {
+          "type": "string",
+          "value": "BentonSans"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 12
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "bold"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textSecondary}"
+        }
+      }
+    },
+    "number": {
+      "default": {
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0500)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimary}"
+        }
+      },
       "fontFamily": {
         "type": "string",
-        "value": "{HP.fontFamilySans1}"
+        "value": "CapitoliumHead"
       },
-      "fontScale-l": {
+      "fontSize": {
         "type": "number",
-        "value": "{fsize.fontsize-090}"
-      },
-      "fontScale-m": {
-        "type": "number",
-        "value": "{fsize.fontsize-085}"
-      },
-      "fontScale-s": {
-        "type": "number",
-        "value": "{fsize.fontsize-080}"
-      },
-      "fontScale-xl": {
-        "type": "number",
-        "value": "{fsize.fontsize-100}"
-      },
-      "fontScale-xs": {
-        "type": "number",
-        "value": "{fsize.fontsize-075}"
-      },
-      "fontScale-xxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-150}"
-      },
-      "fontScale-xxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-070}"
-      },
-      "fontScale-xxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-200}"
-      },
-      "fontScale-xxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-060}"
-      },
-      "fontScale-xxxxl": {
-        "type": "number",
-        "value": "{fsize.fontsize-250}"
-      },
-      "fontScale-xxxxs": {
-        "type": "number",
-        "value": "{fsize.fontsize-050}"
+        "value": 56
       },
       "fontWeight": {
         "type": "string",
-        "value": "{fweight.weight-350}"
+        "value": "bold"
       },
-      "uppercase": {
-        "type": "boolean",
-        "value": false
+      "inverted": {
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(255, 255, 255, 0.0500)"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textPrimaryInverted}"
+        }
+      }
+    }
+  },
+  "teaserFooter": {
+    "default": {
+      "action": {
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimary}"
+        }
+      },
+      "info": {
+        "fontFamily": {
+          "type": "string",
+          "value": "BentonSans"
+        },
+        "fontSize": {
+          "type": "number",
+          "value": 12
+        },
+        "fontWeight": {
+          "type": "string",
+          "value": "BentonSans"
+        },
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconSecondary}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textSecondary}"
+        }
+      }
+    },
+    "inverted": {
+      "action": {
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconPrimaryInverted}"
+        }
+      },
+      "info": {
+        "iconColor": {
+          "type": "color",
+          "value": "{System.iconSecondaryInverted}"
+        },
+        "textColor": {
+          "type": "color",
+          "value": "{System.textSecondaryInverted}"
+        }
+      }
+    }
+  },
+  "theme1": {
+    "backgroundColor": {
+      "type": "color",
+      "value": "#ffffff"
+    },
+    "swimlane": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#f2f2f2"
+      },
+      "teaser": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1100)"
+        },
+        "headline": {
+          "textColor": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        },
+        "intro": {
+          "textColor": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.1100)"
+          }
+        }
+      }
+    }
+  },
+  "theme2": {
+    "backgroundColor": {
+      "type": "color",
+      "value": "#efefef"
+    },
+    "swimlane": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "teaser": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.1100)"
+        },
+        "headline": {
+          "textColor": {
+            "type": "color",
+            "value": "{System.textPrimary}"
+          }
+        },
+        "intro": {
+          "textColor": {
+            "type": "color",
+            "value": "rgba(0, 0, 0, 0.1100)"
+          }
+        }
+      }
+    }
+  },
+  "theme3": {
+    "backgroundColor": {
+      "type": "color",
+      "value": "#1d1d1d"
+    },
+    "swimlane": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#000000"
+      },
+      "teaser": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#212121"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "headline": {
+          "textColor": {
+            "type": "color",
+            "value": "{System.textPrimaryInverted}"
+          }
+        },
+        "intro": {
+          "textColor": {
+            "type": "color",
+            "value": "rgba(255, 255, 255, 0.1700)"
+          }
+        }
+      }
+    }
+  },
+  "theme4": {
+    "backgroundColor": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "swimlane": {
+      "backgroundColor": {
+        "type": "color",
+        "value": "#ffffff"
+      },
+      "teaser": {
+        "backgroundColor": {
+          "type": "color",
+          "value": "#ffffff"
+        },
+        "borderColor": {
+          "type": "color",
+          "value": "rgba(0, 0, 0, 0.0000)"
+        },
+        "headline": {
+          "textColor": {
+            "type": "color",
+            "value": "{System.alwaysWhite}"
+          }
+        },
+        "intro": {
+          "textColor": {
+            "type": "color",
+            "value": "{System.textSecondary}"
+          }
+        }
       }
     }
   }
