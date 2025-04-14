@@ -222,7 +222,7 @@
       "swimlane": {
         "backgroundColor": {
           "type": "color",
-          "value": "#1d1d1d"
+          "value": "#000000"
         }
       }
     }
