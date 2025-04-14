@@ -533,11 +533,11 @@
       },
       "500": {
         "type": "color",
-        "value": "{dark.torchRed.500}"
+        "value": "{dark.torchRed.600}"
       },
       "600": {
         "type": "color",
-        "value": "{dark.torchRed.600}"
+        "value": "{dark.torchRed.700}"
       },
       "700": {
         "type": "color",
