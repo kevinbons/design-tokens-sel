@@ -127,7 +127,7 @@
     "theme4": {
       "backgroundColor": {
         "type": "color",
-        "value": "{TR.surface.surface-4}"
+        "value": "{TR.surface.surface-5}"
       },
       "swimlane": {
         "backgroundColor": {
@@ -207,7 +207,7 @@
     "theme4": {
       "backgroundColor": {
         "type": "color",
-        "value": "#1d1d1d"
+        "value": "#000000"
       },
       "gallery": {
         "photocredit": {
@@ -222,7 +222,7 @@
       "swimlane": {
         "backgroundColor": {
           "type": "color",
-          "value": "#1d1d1d"
+          "value": "#000000"
         }
       }
     }
