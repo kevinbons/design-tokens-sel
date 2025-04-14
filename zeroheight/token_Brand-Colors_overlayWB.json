@@ -167,7 +167,7 @@
     "brand": {
       "brandPrimary": {
         "type": "color",
-        "value": "#ee090d"
+        "value": "#e7090d"
       },
       "brandSecondairy": {
         "type": "color",
@@ -175,7 +175,7 @@
       },
       "live": {
         "type": "color",
-        "value": "#ee090d"
+        "value": "#e7090d"
       },
       "premium": {
         "type": "color",
@@ -189,7 +189,7 @@
     "solid": {
       "solid-1": {
         "type": "color",
-        "value": "#ee090d"
+        "value": "#e7090d"
       },
       "solid-2": {
         "type": "color",
@@ -198,6 +198,10 @@
       "solid-3": {
         "type": "color",
         "value": "#ffffff"
+      },
+      "solid-4": {
+        "type": "color",
+        "value": "#e7090d"
       }
     },
     "surface": {
@@ -430,11 +434,11 @@
     },
     "iconSecondary": {
       "type": "color",
-      "value": "rgba(255, 255, 255, 0.6000)"
+      "value": "rgba(0, 0, 0, 0.6700)"
     },
     "iconSecondaryInverted": {
       "type": "color",
-      "value": "rgba(255, 255, 255, 0.7000)"
+      "value": "rgba(255, 255, 255, 0.3500)"
     },
     "success": {
       "type": "color",
@@ -456,6 +460,10 @@
       "surface-2-inverted": {
         "type": "color",
         "value": "#ffffff"
+      },
+      "surface-3": {
+        "type": "color",
+        "value": "rgba(0, 0, 0, 0.0000)"
       }
     },
     "textPrimary": {
@@ -468,11 +476,11 @@
     },
     "textSecondary": {
       "type": "color",
-      "value": "rgba(255, 255, 255, 0.6000)"
+      "value": "rgba(255, 255, 255, 0.6700)"
     },
     "textSecondaryInverted": {
       "type": "color",
-      "value": "rgba(255, 255, 255, 0.7000)"
+      "value": "rgba(255, 255, 255, 0.6700)"
     }
   },
   "TR": {
