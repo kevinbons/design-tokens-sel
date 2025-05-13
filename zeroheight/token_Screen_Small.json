@@ -239,6 +239,12 @@
       }
     }
   },
+  "imagegrid": {
+    "stack-h": {
+      "type": "boolean",
+      "value": false
+    }
+  },
   "outdated": {
     "article": {
       "body": {
@@ -479,7 +485,7 @@
   },
   "screen": {
     "type": "string",
-    "value": "Small"
+    "value": "small"
   },
   "spacing-none": {
     "type": "number",
