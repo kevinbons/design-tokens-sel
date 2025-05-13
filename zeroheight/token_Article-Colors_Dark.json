@@ -146,26 +146,6 @@
         }
       }
     },
-    "paragraph": {
-      "link": {
-        "active": {
-          "type": "color",
-          "value": "#e71629"
-        },
-        "hover": {
-          "type": "color",
-          "value": "#a81321"
-        },
-        "normal": {
-          "type": "color",
-          "value": "{DM.solid.solid-1}"
-        },
-        "visited": {
-          "type": "color",
-          "value": "#f36674"
-        }
-      }
-    },
     "template": {
       "column": {
         "Background": {
@@ -228,26 +208,6 @@
         }
       }
     },
-    "paragraph": {
-      "link": {
-        "active": {
-          "type": "color",
-          "value": "#1fab68"
-        },
-        "hover": {
-          "type": "color",
-          "value": "#147045"
-        },
-        "normal": {
-          "type": "color",
-          "value": "{FL.solid.solid-1}"
-        },
-        "visited": {
-          "type": "color",
-          "value": "#69c79a"
-        }
-      }
-    },
     "ragingBox": {
       "Background": {
         "type": "color",
@@ -306,26 +266,6 @@
         }
       }
     },
-    "paragraph": {
-      "link": {
-        "active": {
-          "type": "color",
-          "value": "#d72236"
-        },
-        "hover": {
-          "type": "color",
-          "value": "#921d2e"
-        },
-        "normal": {
-          "type": "color",
-          "value": "{HP.solid.solid-1}"
-        },
-        "visited": {
-          "type": "color",
-          "value": "#ef3e51"
-        }
-      }
-    },
     "template": {
       "background": {
         "Column": {
@@ -379,26 +319,6 @@
         "Text": {
           "type": "color",
           "value": "#000000"
-        }
-      }
-    },
-    "paragraph": {
-      "link": {
-        "active": {
-          "type": "color",
-          "value": "#c00704"
-        },
-        "hover": {
-          "type": "color",
-          "value": "#900503"
-        },
-        "normal": {
-          "type": "color",
-          "value": "{HU.solid.solid-1}"
-        },
-        "visited": {
-          "type": "color",
-          "value": "#f8494d"
         }
       }
     },
@@ -462,26 +382,6 @@
         }
       }
     },
-    "paragraph": {
-      "link": {
-        "active": {
-          "type": "color",
-          "value": "#e9795a"
-        },
-        "hover": {
-          "type": "color",
-          "value": "#d46e52"
-        },
-        "normal": {
-          "type": "color",
-          "value": "{LI.solid.solid-1}"
-        },
-        "visited": {
-          "type": "color",
-          "value": "#f39579"
-        }
-      }
-    },
     "ratingBox": {
       "Background": {
         "type": "color",
@@ -506,26 +406,6 @@
     }
   },
   "MA": {
-    "Paragraph": {
-      "link": {
-        "active": {
-          "type": "color",
-          "value": "#569d9d"
-        },
-        "hover": {
-          "type": "color",
-          "value": "#368787"
-        },
-        "normal": {
-          "type": "color",
-          "value": "{MA.solid.solid-1}"
-        },
-        "visited": {
-          "type": "color",
-          "value": "#87c1c1"
-        }
-      }
-    },
     "component": {
       "video": {
         "Play-button-icon": {
@@ -621,26 +501,6 @@
           "value": "{System.textPrimary}"
         }
       }
-    },
-    "paragraph": {
-      "link": {
-        "active": {
-          "type": "color",
-          "value": "#154669"
-        },
-        "hover": {
-          "type": "color",
-          "value": "#154669"
-        },
-        "normal": {
-          "type": "color",
-          "value": "{TR.solid.solid-1}"
-        },
-        "visited": {
-          "type": "color",
-          "value": "#354a5c"
-        }
-      }
     }
   },
   "VK": {
@@ -679,26 +539,6 @@
         "Text": {
           "type": "color",
           "value": "#dddddd"
-        }
-      }
-    },
-    "paragraph": {
-      "link": {
-        "active": {
-          "type": "color",
-          "value": "#047cbd"
-        },
-        "hover": {
-          "type": "color",
-          "value": "#0074a3"
-        },
-        "normal": {
-          "type": "color",
-          "value": "{VK.solid.solid-1}"
-        },
-        "visited": {
-          "type": "color",
-          "value": "#30b8f2"
         }
       }
     }

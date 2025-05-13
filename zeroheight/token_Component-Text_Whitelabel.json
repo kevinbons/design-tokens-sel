@@ -671,6 +671,24 @@
       }
     }
   },
+  "link": {
+    "default": {
+      "type": "string",
+      "value": "linkNormal"
+    },
+    "focussed": {
+      "type": "string",
+      "value": "linkFocussed"
+    },
+    "selected": {
+      "type": "string",
+      "value": "linkSelected"
+    },
+    "visited": {
+      "type": "string",
+      "value": "linkVisited"
+    }
+  },
   "teaser": {
     "alt1": {
       "headlineExtralarge": {
@@ -691,21 +709,23 @@
       }
     },
     "default": {
-      "headlineExtralarge": {
-        "type": "string",
-        "value": "Headline/default/extralarge"
-      },
-      "headlineLarge": {
-        "type": "string",
-        "value": "Headline/default/large"
-      },
-      "headlineMedium": {
-        "type": "string",
-        "value": "Headline/default/medium"
-      },
-      "headlineSmall": {
-        "type": "string",
-        "value": "Headline/default/small"
+      "extended": {
+        "headlineExtralarge": {
+          "type": "string",
+          "value": "Headline/default/extralarge"
+        },
+        "headlineLarge": {
+          "type": "string",
+          "value": "Headline/default/large"
+        },
+        "headlineMedium": {
+          "type": "string",
+          "value": "Headline/default/medium"
+        },
+        "headlineSmall": {
+          "type": "string",
+          "value": "Headline/default/small"
+        }
       },
       "intro": {
         "type": "string",
@@ -718,6 +738,24 @@
       "photodesc": {
         "type": "string",
         "value": "Photodesc"
+      },
+      "short": {
+        "headlineExtralarge": {
+          "type": "string",
+          "value": "Headline/default/extralarge"
+        },
+        "headlineLarge": {
+          "type": "string",
+          "value": "Headline/default/large"
+        },
+        "headlineMedium": {
+          "type": "string",
+          "value": "Headline/default/medium"
+        },
+        "headlineSmall": {
+          "type": "string",
+          "value": "Headline/default/small"
+        }
       }
     },
     "footer": {

@@ -671,6 +671,24 @@
       }
     }
   },
+  "link": {
+    "default": {
+      "type": "string",
+      "value": "linkNormal"
+    },
+    "focussed": {
+      "type": "string",
+      "value": "linkFocussed"
+    },
+    "selected": {
+      "type": "string",
+      "value": "linkSelected"
+    },
+    "visited": {
+      "type": "string",
+      "value": "linkVisited"
+    }
+  },
   "teaser": {
     "alt1": {
       "headlineExtralarge": {
@@ -691,21 +709,23 @@
       }
     },
     "default": {
-      "headlineExtralarge": {
-        "type": "string",
-        "value": "De VS zijn een stuk roder geworden: vijf belangrijke conclusies uit de verkiezingsuitslagen"
-      },
-      "headlineLarge": {
-        "type": "string",
-        "value": "De VS zijn een stuk roder geworden: vijf belangrijke conclusies uit de verkiezingsuitslagen"
-      },
-      "headlineMedium": {
-        "type": "string",
-        "value": "De VS zijn een stuk roder geworden: vijf belangrijke conclusies uit de verkiezingsuitslagen"
-      },
-      "headlineSmall": {
-        "type": "string",
-        "value": "De VS zijn een stuk roder geworden: vijf belangrijke conclusies uit de verkiezingsuitslagen"
+      "extended": {
+        "headlineExtralarge": {
+          "type": "string",
+          "value": "De VS zijn een stuk roder geworden: vijf belangrijke conclusies uit de verkiezingsuitslagen"
+        },
+        "headlineLarge": {
+          "type": "string",
+          "value": "De VS zijn een stuk roder geworden: vijf belangrijke conclusies uit de verkiezingsuitslagen"
+        },
+        "headlineMedium": {
+          "type": "string",
+          "value": "De VS zijn een stuk roder geworden: vijf belangrijke conclusies uit de verkiezingsuitslagen"
+        },
+        "headlineSmall": {
+          "type": "string",
+          "value": "De VS zijn een stuk roder geworden: vijf belangrijke conclusies uit de verkiezingsuitslagen"
+        }
       },
       "intro": {
         "type": "string",
@@ -718,6 +738,24 @@
       "photodesc": {
         "type": "string",
         "value": "Blauwe staten kleurden rood, Florida lijkt niet langer een swingstate meer en Donald Trump is op koers om ook de ‘popular vote’ te gaan winnen – iets wat hem bij de vorige verkiezingen niet lukte. De opvallendste bevindingen op rij."
+      },
+      "short": {
+        "headlineExtralarge": {
+          "type": "string",
+          "value": "De VS zijn roder geworden"
+        },
+        "headlineLarge": {
+          "type": "string",
+          "value": "De VS zijn roder geworden"
+        },
+        "headlineMedium": {
+          "type": "string",
+          "value": "De VS zijn roder geworden"
+        },
+        "headlineSmall": {
+          "type": "string",
+          "value": "De VS zijn roder geworden"
+        }
       }
     },
     "footer": {

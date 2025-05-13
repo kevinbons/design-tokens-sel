@@ -265,6 +265,11 @@
         "comment": "libelle",
         "type": "color",
         "value": "#1bab9a"
+      },
+      "solid-4": {
+        "comment": "libelle",
+        "type": "color",
+        "value": "#a55640"
       }
     },
     "surface": {
